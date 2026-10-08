@@ -1,0 +1,271 @@
+
+========== BREAK AT LINE 1680 ==========
+--- Line 1679 (previous) ---
+{
+  "id": "fe8036f8-c425-4878-b41d-505b8676b5a6",
+  "eventId": "",
+  "ts": "2026-09-26T14:07:16.709Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-incremental-2026-09-26T14-07-16-164Z: 60 files (13325913 bytes)",
+  "checksumScheme": "full",
+  "checksum": "ecfa3167f9273db9058b77111c57895566fa109a62f88f2d197eb16daa63534a"
+}
+--- Line 1680 (BROKEN) ---
+{
+  "id": "dd56b349-2560-4e62-b417-5e2414adfeb4",
+  "eventId": "",
+  "ts": "2026-09-26T14:07:16.717Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-incremental-2026-09-26T14-07-16-148Z: 60 files (13325913 bytes)",
+  "checksumScheme": "full",
+  "checksum": "72dbf06f027582d9ca31e3c2ef2859e07842060f6e801247b80196906eb97886"
+}
+--- Line 1681 (next) ---
+{
+  "id": "8d29703b-22e6-43fc-a10e-14ca742a25c0",
+  "eventId": "",
+  "ts": "2026-09-26T22:07:17.237Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-full-2026-09-26T22-07-16-212Z: 60 files (13326561 bytes)",
+  "checksumScheme": "full",
+  "checksum": "2b3d4e6995da5f24cf6b46d5f5175af5dd10b77273ba26516a34a66a50567107"
+}
+
+========== BREAK AT LINE 1682 ==========
+--- Line 1681 (previous) ---
+{
+  "id": "8d29703b-22e6-43fc-a10e-14ca742a25c0",
+  "eventId": "",
+  "ts": "2026-09-26T22:07:17.237Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-full-2026-09-26T22-07-16-212Z: 60 files (13326561 bytes)",
+  "checksumScheme": "full",
+  "checksum": "2b3d4e6995da5f24cf6b46d5f5175af5dd10b77273ba26516a34a66a50567107"
+}
+--- Line 1682 (BROKEN) ---
+{
+  "id": "10755514-ac8d-4abc-bb76-99867aae7fb8",
+  "eventId": "",
+  "ts": "2026-09-26T22:07:17.251Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-full-2026-09-26T22-07-16-212Z: 60 files (13326561 bytes)",
+  "checksumScheme": "full",
+  "checksum": "c88e2c42f392e4fa3f9fef9372fe0b2fd993a59895fcfe1e5f862b1941b72b6d"
+}
+--- Line 1683 (next) ---
+{
+  "id": "4769de31-8164-4a16-8f8b-001a59eefbcb",
+  "eventId": "",
+  "ts": "2026-09-27T05:43:36.949Z",
+  "action": "AI provider alert",
+  "detail": "down — No AI provider answered (4 configured). The leadership mentor is running on its deterministic, register-grounded engine only. Failing providers — opencode: fetch failed; openrouter: fetch failed; groq: fetch failed; cerebras: fetch failed",
+  "checksumScheme": "full",
+  "checksum": "c2730808c72805fc4d090f978eedb2b7bf8e8a4fa255ec537c7dfcac1d30f15b"
+}
+
+========== BREAK AT LINE 1799 ==========
+--- Line 1798 (previous) ---
+{
+  "id": "935c8097-8eae-46e9-b129-f05ec7f1acd5",
+  "eventId": "",
+  "ts": "2026-09-28T23:49:00.346Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-incremental-2026-09-28T23-48-59-212Z: 60 files (13376984 bytes)",
+  "checksumScheme": "full",
+  "checksum": "c0f33735baa5c96dd341630b45918f081ed9fcafaf8b483536599a7b6154444c"
+}
+--- Line 1799 (BROKEN) ---
+{
+  "id": "ff67681f-da5e-4ad8-99d1-297ddddae5a5",
+  "eventId": "",
+  "ts": "2026-09-28T23:49:00.491Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-incremental-2026-09-28T23-48-58-960Z: 60 files (13376984 bytes)",
+  "checksumScheme": "full",
+  "checksum": "837e766cdfd4e158f4e04976f156c668c5ec0b80aa68cd1a845267a135285427"
+}
+--- Line 1800 (next) ---
+{
+  "id": "f870a50d-5029-42f3-b154-95ad06a071ee",
+  "eventId": "",
+  "ts": "2026-09-29T00:37:37.836Z",
+  "action": "My work read",
+  "detail": "1 tasks across 1 projects — anonymous",
+  "checksumScheme": "full",
+  "checksum": "705c68e186a8a440c3097d6cbb88975dce8a5c1153821a610d867f1c975d62c9"
+}
+
+========== BREAK AT LINE 2015 ==========
+--- Line 2014 (previous) ---
+{
+  "id": "7c33acd8-262d-4353-823a-e1dfd53ef506",
+  "eventId": "",
+  "ts": "2026-09-30T00:46:12.113Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-incremental-2026-09-30T00-46-11-524Z: 62 files (13454098 bytes)",
+  "checksumScheme": "full",
+  "checksum": "77b1458d043ed7e3dc36238e6e031be74da58fa4c5a01cba91bfe84deab60f59"
+}
+--- Line 2015 (BROKEN) ---
+{
+  "id": "a41241ae-4318-4e92-a93e-fe826e43b6e2",
+  "eventId": "",
+  "ts": "2026-09-30T00:46:12.228Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-incremental-2026-09-30T00-46-11-523Z: 62 files (13454098 bytes)",
+  "checksumScheme": "full",
+  "checksum": "8b1810a36d8327e734cbef0d5979ebb18c7857b140b30e4b0ec56459179a135d"
+}
+--- Line 2016 (next) ---
+{
+  "id": "4a3b7d54-11ab-415e-8f77-5415f57d0ab7",
+  "eventId": "",
+  "ts": "2026-09-30T06:57:06.647Z",
+  "action": "AI provider alert",
+  "detail": "down — No AI provider answered (4 configured). The leadership mentor is running on its deterministic, register-grounded engine only. Failing providers — opencode: fetch failed; openrouter: fetch failed; groq: fetch failed; cerebras: fetch failed",
+  "checksumScheme": "full",
+  "checksum": "a8a74f4fb2733a11db798160a598217517f7a4ef1ede311f4cf6679641355889"
+}
+
+========== BREAK AT LINE 2197 ==========
+--- Line 2196 (previous) ---
+{
+  "id": "30a82fc1-9429-4537-be10-1669a94b9594",
+  "eventId": "",
+  "ts": "2026-10-03T22:12:32.263Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-full-2026-10-03T22-12-31-989Z: 62 files (13747744 bytes)",
+  "checksumScheme": "full",
+  "checksum": "90c8bb9e8a1d4b912a5f9ee87476e38719c7f2dd2eac83fc36610d5ad6156572"
+}
+--- Line 2197 (BROKEN) ---
+{
+  "id": "95e9d421-d965-4fa6-ab64-c118778de4e2",
+  "eventId": "",
+  "ts": "2026-10-03T22:12:32.286Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-full-2026-10-03T22-12-31-993Z: 62 files (13747744 bytes)",
+  "checksumScheme": "full",
+  "checksum": "a97539b2b51de97b48dc6c6d2868801d64aa651d8eeec4dd398db5901cfec817"
+}
+--- Line 2198 (next) ---
+{
+  "id": "d8b0eb6a-c5ee-419b-a24d-03437d673205",
+  "eventId": "",
+  "ts": "2026-10-03T22:12:34.438Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-full-2026-10-03T22-12-34-148Z: 62 files (13748370 bytes)",
+  "checksumScheme": "full",
+  "checksum": "5188d330e1cc6b45d1fdd7870c1ef8fc475ac4e24efe9b76cb1f8153baff8be9"
+}
+
+========== BREAK AT LINE 2538 ==========
+--- Line 2537 (previous) ---
+{
+  "id": "2725cf0c-e843-4a50-ac20-12b778bfdfab",
+  "eventId": "",
+  "ts": "2026-10-06T13:57:17.810Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-incremental-2026-10-06T13-57-16-940Z: 62 files (4362980 bytes)",
+  "checksumScheme": "full",
+  "checksum": "5733597d72b0328bcf0e6ac104402706b202523f9821f2961bcb34c64b0d07fc"
+}
+--- Line 2538 (BROKEN) ---
+{
+  "id": "91a2f31f-8195-4331-bb0e-d5658e27e220",
+  "eventId": "",
+  "ts": "2026-10-06T13:57:17.823Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-incremental-2026-10-06T13-57-16-929Z: 62 files (4362980 bytes)",
+  "checksumScheme": "full",
+  "checksum": "cee3ecadfe7f68f0d0503558f4c59cc19ba5dfb54c9f696eaec013d5f3987441"
+}
+--- Line 2539 (next) ---
+{
+  "id": "821051a0-b7f5-4af3-843f-818804e0bda6",
+  "eventId": "",
+  "ts": "2026-10-07T08:26:27.235Z",
+  "action": "My work read",
+  "detail": "0 tasks across 1 projects — anonymous",
+  "checksumScheme": "full",
+  "checksum": "6e1a1ed8843d548dba103a0d924ae56ba11279ae733f01646c9fce0768860cdc"
+}
+
+========== BREAK AT LINE 2551 ==========
+--- Line 2550 (previous) ---
+{
+  "id": "f5090663-642b-41f9-8e5c-0e5dcb6a67b2",
+  "eventId": "",
+  "ts": "2026-10-08T14:57:19.247Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-incremental-2026-10-08T14-57-18-790Z: 62 files (4372107 bytes)",
+  "checksumScheme": "full",
+  "checksum": "851931e86ce8cff06cc461722e7bec6413e3d25c2c6a9e3ef3dd15e302099388"
+}
+--- Line 2551 (BROKEN) ---
+{
+  "id": "800dfdde-77bd-42e8-bdb7-32e55798c7a1",
+  "eventId": "",
+  "ts": "2026-10-08T14:57:19.259Z",
+  "action": "Backup scheduler",
+  "detail": "undefined backup backup-incremental-2026-10-08T14-57-18-795Z: 62 files (4372107 bytes)",
+  "checksumScheme": "full",
+  "checksum": "379c1cbfa2bb322bf70ffc66e3091a0a698f79c2c31fbd25561e684a57c62b08"
+}
+--- Line 2552 (next) ---
+{
+  "id": "52a1a3b5-4508-46c8-ad50-2555408d890a",
+  "eventId": "",
+  "ts": "2026-10-08T16:35:01.303Z",
+  "action": "Workspace saved",
+  "detail": "Server-backed workspace persistence (policy-v1)",
+  "checksumScheme": "full",
+  "checksum": "5126069e842f6d4d1b2cd8a43e1eba3c5353d80882e2eb2ccd6a1bc1f8e4799b"
+}
+
+
+SCHEME SUMMARY for broken lines: ["full","full","full","full","full","full","full"]
+SURROUNDING SCHEME MAP: [
+  {
+    "line": 1680,
+    "prevScheme": "full",
+    "thisScheme": "full",
+    "nextScheme": "full"
+  },
+  {
+    "line": 1682,
+    "prevScheme": "full",
+    "thisScheme": "full",
+    "nextScheme": "full"
+  },
+  {
+    "line": 1799,
+    "prevScheme": "full",
+    "thisScheme": "full",
+    "nextScheme": "full"
+  },
+  {
+    "line": 2015,
+    "prevScheme": "full",
+    "thisScheme": "full",
+    "nextScheme": "full"
+  },
+  {
+    "line": 2197,
+    "prevScheme": "full",
+    "thisScheme": "full",
+    "nextScheme": "full"
+  },
+  {
+    "line": 2538,
+    "prevScheme": "full",
+    "thisScheme": "full",
+    "nextScheme": "full"
+  },
+  {
+    "line": 2551,
+    "prevScheme": "full",
+    "thisScheme": "full",
+    "nextScheme": "full"
+  }
+]

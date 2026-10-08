@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intake Form</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    body { max-width: 640px; margin: 0 auto; padding: 24px 16px; }
+    .pub-card { background: var(--card-bg, #fff); border: 1px solid var(--border, #e2e2e2); border-radius: 10px; padding: 20px; }
+    .pub-field { margin: 12px 0; }
+    .pub-field label { display: block; font-size: 13px; color: var(--text-muted, #666); margin-bottom: 4px; }
+    .pub-field input, .pub-field textarea, .pub-field select { width: 100%; box-sizing: border-box; padding: 8px; border: 1px solid var(--border, #ccc); border-radius: 6px; font-size: 14px; }
+    .pub-success { color: var(--good, #2d9d4f); font-weight: 600; }
+    .pub-error { color: var(--bad, #c0392b); }
+  </style>
+</head>
+<body>
+  <div id="pubWrap">
+    <div class="pub-card">
+      <div id="pubBody"><p>Loading form…</p></div>
+    </div>
+  </div>
+  <script src="js/public-form.js"></script>
+</body>
+</html>

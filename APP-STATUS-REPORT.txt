@@ -1,0 +1,269 @@
+================================================================================
+LEADERSHIP PLATFORM — OVERALL STATUS REPORT
+Generated: 2026-10-08 | Branch: feat/produktionsledelse-gmp-electronics
+All numbers below are MEASURED from the workspace where stated, not recalled.
+================================================================================
+
+1. WHAT THE APP IS
+--------------------------------------------------------------------------------
+A fully self-contained, bilingual (Danish/English) leadership platform covering
+engineering project leadership AND personal/people leadership. It is
+click-only by design (every field is a dropdown, picker or chip — no free
+text), works offline, and runs with no build step: open index.html in a
+browser, or run the Node server (npm start, port 8001) for the audit-backed
+API layer.
+
+Two runtime modes:
+  - Browser-only: index.html + localStorage, export/import JSON, print any view.
+  - Server-backed: server.js (15,830 lines) serves the same app plus a
+    hash-chained, fsync'd append-only API (audit, approvals, workspace,
+    automation, trust, finance...). Production profile: Docker +
+    PostgreSQL (LEADERSHIP_PERSISTENCE=postgres); JSONL locally by default.
+
+2. REPOSITORY STATUS
+--------------------------------------------------------------------------------
+  Commits:             399 (first 2026-07-11, last 2026-10-07)
+  Latest activity:     "Round 70" (2026-10-08 in CHANGELOG) — i18n state-sync
+                       fix + per-sandbox loader census rules.
+  Uncommitted work:    414 files modified (370 files changed,
+                       +10,748 / -3,344 lines) — a large in-progress round
+                       sits in the working tree on this branch. Nothing is
+                       lost, but the round is not committed yet.
+  CI:                  GitHub Actions runs `npm run verify` (full chain +
+                       dependency security audit) on every push/PR.
+
+3. CODEBASE SCALE (measured)
+--------------------------------------------------------------------------------
+  js/ modules:              661 JS files
+  UI layer:                 js/ui.js — 31,171 lines (navigation + views)
+  Engine:                   js/calc.js — 4,079 lines (pure calculations)
+  State:                    js/store.js — 3,621 lines (localStorage, KPIs)
+  i18n:                     js/i18n.js — 1,701 lines (DA/EN + cultural dict)
+  Compiled TS engines:      src/*.ts -> js/*-engine.js bundles (buildless
+                            client, drift gates in the test chain)
+  Server:                   server.js — 15,830 lines
+  Test files:               875 files under test/
+  Documented API routes:    419 paths in api-spec.yaml (OpenAPI 3.1)
+  Method registry:          139 methods (each with evidence tier + as-of date),
+                            139/139 translated to Danish (coverage-proven)
+  Leadership models:        31 models in leadershipModels.json
+
+4. WHAT THE APP HAS — FEATURE DOMAINS
+--------------------------------------------------------------------------------
+4.1 Engineering project leadership (~21 views)
+    PM Tasks, Kanban (drag-and-drop), Gantt timeline, Risk Register
+    (Severity x Occurrence x Detection -> RPN + banding), FMEA, RACI matrix,
+    WBS, Milestone plan (slip calculation), Budget + variance, Earned Value
+    (CPI/SPI/EAC/VAC), Daily Standup, Retrospective (multiple frameworks),
+    Sprint Planning, Resource Planning, Scope & Charter, Quality Plan,
+    Communications Plan, Procurement, Change Log, Lessons Learned.
+
+4.2 Personal leadership (~15 views)
+    Self-Assessment, SMART goals (5-dim scoring), GROW coaching (auto
+    questions per stage), 360 feedback (SBI/COIN/CEDAR/Radical Candor),
+    Emotional Intelligence (4 pillars), Eisenhower time matrix, Habit
+    Tracker (streaks), Personal OKRs, DISC, Belbin (9 roles), Johari Window,
+    Reflection Journal, Personal Values, Energy Audit, Delegation Planner
+    (5-level scale).
+
+4.3 Team & people (~10 views)
+    Team Roster, 1-on-1 Meetings, Lencioni Team Health, Conflict Resolution
+    (Thomas-Kilmann + Glasl/NVC/mediation + triage-gated phases model:
+    afklaring -> graensaetning -> konsekvens), Meeting Management,
+    Performance Review, Training (70-20-10), Recognition & Rewards,
+    Psychological Safety (Edmondson 7-item), Culture Canvas.
+
+4.4 Strategy & decision (~9 views)
+    SWOT (auto SO/WO/ST/WT strategies), PESTLE, Decision Matrix (weighted,
+    incl. RAPID), RICE/WSJF, OKR Scorecard, Scenario Planning + stress test,
+    Stakeholder Map (auto strategy), Balanced Scorecard, Strategy Map.
+
+4.5 Financial leadership (~5 views)
+    Financial Tracking, ROI/NPV/IRR, Break-even/Burn rate, Financial Ratios,
+    Cost-Benefit — plus a full finance-operations layer server-side
+    (journal, period close + freeze + SHA-256 close certificate, trial
+    balance, reopen-by-audit, cash forecast, accounts payable/receivable,
+    treasury management, bank-feed connector (bik Danish CSV / sandbox / http,
+    dedup + evidence-chained imports)).
+
+4.6 Risk management (~5 views)
+    Bow-tie, Risk Appetite, Monte Carlo simulation (Python reference
+    implementations with tests), COSO ERM / ISO 31000, Risk Heat Map.
+
+4.7 Business strategy (~5 views)
+    Porter's Five Forces, BCG/Ansoff, VRIO, Business Model Canvas,
+    Value Chain / Blue Ocean.
+
+4.8 Deep process-safety & GMP layer
+    HAZID/HAZOP/LOPA/SIL/ATEX/JSA/FMEA/bow-tie, MOC, PTW, incidents/TRIFR,
+    QRA (UK-HSE bands), chemical register (GHS01-09, H-statements, CAS/UN,
+    ADR classes + segregation screen), Ex equipment marking compliance,
+    PSSR startup gates, CAPEX FEL1->FID stage-gates (AACE classes),
+    Life-Saving Rules, contractor prequalification, Zero-Harm walks.
+    Qualification & acceptance testing (DQ/FAT/SAT/IQ/OQ/PQ) with URS
+    traceability, deviation closeout-by-evidence, all-or-nothing release
+    verdict; calibration & traceability (ISO/IEC 17025-style, honest
+    as-found/as-left, measurement-integrity twin-check).
+    Management systems: element registers for ISO 9001/14001/45001/50001/
+    27001/31000/55001/22301/37001, Seveso III MAPP, OSHA PSM, CCPS RBPS,
+    IEC 61511 SIS lifecycle — coverage scored, certification never claimed.
+
+4.9 Danish everyday-leadership layer (hverdag)
+    Forbedringsforslag (suggestion system, 14-day answer discipline),
+    1:1-samtalen (two-way — employee proposes agenda items via
+    /api/entilen/prep), Loesningsfokuseret ledelse (0-10 scale + Danish
+    question bank + honest stagnation detection), Ofmans kernekvadrant
+    (team-clash analysis), IBIS-runden, Distancedledelse (KN/LOA), plus
+    Velkomstprogrammet (onboarding), Anerkendelses-loggen (fairness view —
+    names who has NOT been recognised in 60+ days), Skiftoverleveringen
+    (shift handover, HMS points stay high until closed), Reservedels-
+    daekningen (critical-spare coverage), Dagsledelse (one read over ALL
+    registers answering "what needs action TODAY"), Moedestrategi
+    (auto-generated tavlemoede/personalemoebe/1:1/driftsmoede agendas),
+    Vedligeholdsmetoder (RCM/TPM/5S/RCA as leadership discipline),
+    Leder-rytmen (are YOU working the rhythms you expect of the team),
+    teamsamarbejds-rapport (quarterly, printable), printable daily cockpit
+    and meeting agendas (PDF endpoints).
+
+4.10 Advanced verification & governance
+    FTA/ETA (IEC 61025/62740, minimal cut sets, Fussell-Vesely importance),
+    SIL verification (IEC 61508/61511 Route 1H + 2L incl. HFT constraints),
+    BIA (ISO 22301, MTPD/RTO/RPO/MBCO), NIS2 (art. 23 24h/72h/1-month
+    countdowns, entity classification, art. 20 governance), measurement
+    quality (AIAG MSA GR&R + ISO 22514 Cp/Cpk), ISO/IEC 27001:2022
+    Statement of Applicability (all 93 Annex A controls), Hoshin Kanri
+    X-matrix, EU AI Act readiness (risk tiering, art. 5 screening, art. 4
+    literacy). Printable SIL + NIS2 + qualification-protocol dossiers.
+
+4.11 Setup & learning
+    Report Pack (printable dashboard), Audit Log (every action, timestamped),
+    Snapshots & Backups (HMAC-signed manifests; restore rejects bad
+    signatures), Settings (workspace, method — Agile/PRINCE2/PMBOK/Kanban/
+    Waterfall/Lean/SAFe/Hybrid — currency, language, accent, export/import),
+    Help (5 goal-based routes + 8-area practice map), per-view contextual
+    guides + wired-module chips with live counts, persistent TODO action
+    list with bell badge, 5-step dashboard journey.
+
+5. WHAT THE APP CAN DO — BEHAVIOURS
+--------------------------------------------------------------------------------
+5.1 Bilingual by structure
+    Instant DA/EN toggle across navigation, labels, statuses and cultural
+    notes; region-specific cultural guidance (Nordic consensus vs
+    Anglo-Saxon decisive) in 9 contexts; 414 UI keys + 85 glossary terms in
+    both languages (i18n coverage gate); proper Danish inflection via
+    js/da-plural.js (never machine-Danish globs).
+
+5.2 Zero-input depth
+    Every module reaches the leader unasked: mentor actions citing their own
+    numbers, daily-brief digests, KPIs computed from registers. Empty
+    registers give calm onboarding states — never fabricated urgency.
+
+5.3 Connected by default (case index)
+    A case registered in one tool is registered in ALL related tools
+    (src/caseRegistry.ts + src/crossModuleWiring.ts via typed event bus).
+    Links complete in both directions, idempotently; lifecycle transitions
+    (closed/re-staged/retired) propagate; deleted rows leave the index.
+
+5.4 Automation (governed)
+    /api/automation queue/run/ack with audit-backed jobs only; optional
+    server scheduler (>=60s interval); risk/budget/approval actions always
+    require a human decision; hard stop on invalid job hash chain
+    (LEADERSHIP_AUTOMATION_PAUSED). Automation proof-of-execution
+    (/api/automation/evidence) hash-chains what actually ran.
+
+5.5 AI layer (honest, governed)
+    Danish AI coach (multi-turn sessions, grounded answers from the SAME
+    engines the briefing uses — coach and briefing can never disagree;
+    Danish intent routing over MUS, APV, AMO, 1-5-10, tavlemoede,
+    reaktionstrappen, seniorpolitik, jobrotation, vedligehold...).
+    Proactive mentor, AI conductor, AI leadership autopilot, auto task
+    creator, briefing/digest emails, LLM provider layer with watchdog +
+    abstention + multilingual injection guard + usage accounting +
+    credentials API; optional js/llm-narrative.js that verifies every claim
+    it drafts (never speaks unverified); voice input (local); anomaly
+    detection; anomaly/auto-reporting engines; Slack + Teams bots; email
+    commands; smart calendar workload coaching.
+
+5.6 Trust layer (provable, not claimed)
+    Hash-chained audit/workspace/approvals/finance/evidence/decision stores;
+    external chain anchoring (/api/trust/anchor, third-party verifiable);
+    cross-module consistency scanner; incident lifecycle (auto-open from
+    KRI breaches, recurrence auto-opens); retention + legal hold with dry-run
+    purges; person master-index (alias resolution); mentorship & succession;
+    intervention experiments (deterministic A/B assignment, Welch's t-test,
+    Bayesian Beta posterior — small samples say "inconclusive"); watchdog
+    verifying EVERY chain live with a 0-100 Trust Score; daily signed
+    attestation (tamper anywhere -> FAIL); forecast->actual grading (MAPE +
+    bias, bias-adjusted projection with disclosed adjustment); external
+    notarization (honest 502 when no notary configured); secrets rotation
+    (fingerprints only, old-credential-usage detection); compliance calendar
+    (GDPR 72h, VAT, ISO windows).
+
+5.7 Policy & access control
+    Declarative policy engine (/api/policy/evaluate — finance thresholds, FX
+    review, admin-role protection, automation default-deny, kill-switch
+    override; every decision returns matched rule + reason and is audited).
+    Token roles (viewer/auditor/editor/admin) with redaction of sensitive
+    registers for viewer/auditor; outbound webhooks (HMAC, backoff retries,
+    dead-letter after 5 failures); OIDC SSO (authorization code, JWKS,
+    RS256/ES256, role derivation from groups); WebAuthn authenticator
+    classes; auth rate limiting; admin route authorization gate.
+
+5.8 Learning loops
+    Policy recalibration from accept/decline acks (>=90% -> allow,
+    <=50% -> review, audited); weekly coaching brief from habits/reflections/
+    energy/OKRs; experiment auto-stop recommendations; Control Center
+    (control-center.html) rendering the whole governance surface with a
+    0-100 governance score.
+
+6. VERIFICATION STATUS (measured this session)
+--------------------------------------------------------------------------------
+  node test.js   (engine + store unit tests):   354 passed, 0 failed  GREEN
+  node smoke.js  (full-app jsdom smoke):         94 passed, 0 failed  GREEN
+  Completion audit (eval-reports, 2026-09-20):  317 modules — 311 complete,
+                                                6 partial (score 9/10),
+                                                0 incomplete, seededRatio 1.
+  Partial modules: Decision Journal, Dynamics From Registers, Leader Memory
+  Graph, Leadership Coaching Engine, Notification Intelligence, Workload
+  Balancer.
+
+  The full verification chain (`npm test` -> run-test-chain) spans ~250
+  chained suites (wiring, i18n, adversarial, per-module, e2e, coverage
+  extras...). It was NOT re-run end-to-end for this report — the two core
+  suites above were run and are green. Coverage floor in CI: 50% lines /
+  35% functions / 45% branches. Security: gitleaks + CycloneDX SBOM +
+  CodeQL. E2E: Playwright on chromium/firefox/webkit. Eval gates: golden
+  baselines, DAST adversarial probes (prompt injection, JSON smuggling,
+  prototype pollution, path traversal, burst rate-limit), API conformance
+  against api-spec.yaml, trend history (/api/trend), and an ordered
+  `npm run endorse` matrix producing one DEPLOY_READY certificate.
+
+7. KNOWN GAPS / ATTENTION POINTS
+--------------------------------------------------------------------------------
+  - 414 modified files are UNCOMMITTED on this branch (+10,748/-3,344) —
+    the current round's work exists only in the working tree.
+  - 6 of 317 audited modules are partial (all at score 9/10, listed above).
+  - Completion audit data is from 2026-09-20; CHANGELOG shows rounds up to
+    70 (2026-10-08), so the audit predates the latest rounds.
+  - OIDC SSO is 503 until LEADERSHIP_OIDC_* env vars are configured.
+  - External notarization returns 502 until LEADERSHIP_NOTARY_URL is set
+    (by design — never faked success).
+  - AI governance readiness (/api/readiness) is NOT_READY until a signed,
+    unexpired manifest exists in server-data/ai-governance.json.
+
+8. HOW TO RUN
+--------------------------------------------------------------------------------
+  Open index.html directly (no install), or:
+    npm install
+    npm test              # full chain
+    node test.js          # 354 engine/unit tests
+    node smoke.js         # 94 full-app smoke tests
+    npm start             # app + audit API on :8001
+  Production: docker compose --env-file .env.production
+              -f docker-compose.production.yml up -d
+  (PostgreSQL from db/migrations/001_initial.sql; secrets via secret
+  manager — see .env.production.example.)
+
+================================================================================
+END OF REPORT
+================================================================================

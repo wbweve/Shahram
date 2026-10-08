@@ -1,0 +1,8061 @@
+{
+  "info": {
+    "name": "Leadership OS API",
+    "description": "410 endpoints across 143 domains",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8001"
+    }
+  ],
+  "item": [
+    {
+      "name": "abac",
+      "item": [
+        {
+          "name": "POST /api/abac/authorize",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/abac/authorize",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "abac",
+                "authorize"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "admin",
+      "item": [
+        {
+          "name": "POST /api/admin/elevate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/admin/elevate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "admin",
+                "elevate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/admin/elevations",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/admin/elevations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "admin",
+                "elevations"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "ai",
+      "item": [
+        {
+          "name": "POST /api/ai/narrative",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/ai/narrative",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "ai",
+                "narrative"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/ai/guard",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/ai/guard",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "ai",
+                "guard"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/ai/abstain",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/ai/abstain",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "ai",
+                "abstain"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/ai/ground",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/ai/ground",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "ai",
+                "ground"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "ai-governance",
+      "item": [
+        {
+          "name": "POST /api/ai-governance/enforce",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/ai-governance/enforce",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "ai-governance",
+                "enforce"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "ai-training",
+      "item": [
+        {
+          "name": "GET /api/ai-training/dataset",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/ai-training/dataset",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "ai-training",
+                "dataset"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/ai-training/quality",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/ai-training/quality",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "ai-training",
+                "quality"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "alerts",
+      "item": [
+        {
+          "name": "GET /api/alerts/digest",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/alerts/digest",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "alerts",
+                "digest"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/alerts/watchers",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/alerts/watchers",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "alerts",
+                "watchers"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/alerts/acknowledge",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/alerts/acknowledge",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "alerts",
+                "acknowledge"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/alerts",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/alerts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "alerts"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "analytics",
+      "item": [
+        {
+          "name": "GET /api/analytics/usage",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/analytics/usage",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "analytics",
+                "usage"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "approvals",
+      "item": [
+        {
+          "name": "GET /api/approvals",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/approvals",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "approvals"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/approvals",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/approvals",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "approvals"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "attestation",
+      "item": [
+        {
+          "name": "GET /api/attestation/export",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/attestation/export",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "attestation",
+                "export"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/attestation/export",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/attestation/export",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "attestation",
+                "export"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "audit",
+      "item": [
+        {
+          "name": "POST /api/audit/search",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/audit/search",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "audit",
+                "search"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/audit/faceted",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/audit/faceted",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "audit",
+                "faceted"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/audit",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/audit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "audit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/audit",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/audit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "audit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/audit/evidence-package",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/audit/evidence-package",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "audit",
+                "evidence-package"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/audit/all-packages",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/audit/all-packages",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "audit",
+                "all-packages"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/audit/verify/",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/audit/verify/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "audit",
+                "verify"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "auth",
+      "item": [
+        {
+          "name": "GET /api/auth/config",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/config",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "config"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/auth/register",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/register",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "register"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/auth/login",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/login",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "login"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/auth/2fa/verify",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/2fa/verify",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "2fa",
+                "verify"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/auth/logout",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/logout",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "logout"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/auth/me",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/me",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "me"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/auth/2fa/setup",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/2fa/setup",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "2fa",
+                "setup"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/auth/2fa/enable",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/2fa/enable",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "2fa",
+                "enable"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/auth/2fa/disable",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/2fa/disable",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "2fa",
+                "disable"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/auth/change-password",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/change-password",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "change-password"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/auth/users",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/users",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "users"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/auth/users/",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/users/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "users"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/auth/integrity",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/integrity",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "auth",
+                "integrity"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "automation",
+      "item": [
+        {
+          "name": "GET /api/automation",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/automation",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "automation"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/automation/run",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/automation/run",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "automation",
+                "run"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/automation/ack",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/automation/ack",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "automation",
+                "ack"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/automation/evidence",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/automation/evidence",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "automation",
+                "evidence"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/automation/evidence",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/automation/evidence",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "automation",
+                "evidence"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "backup",
+      "item": [
+        {
+          "name": "POST /api/backup/manifest",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/backup/manifest",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "backup",
+                "manifest"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/backup/verify",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/backup/verify",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "backup",
+                "verify"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/backup/rto-rpo",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/backup/rto-rpo",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "backup",
+                "rto-rpo"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "benchmarking",
+      "item": [
+        {
+          "name": "GET /api/benchmarking",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/benchmarking",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "benchmarking"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "benchmarks",
+      "item": [
+        {
+          "name": "POST /api/benchmarks/run",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/benchmarks/run",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "benchmarks",
+                "run"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/benchmarks",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/benchmarks",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "benchmarks"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "bias",
+      "item": [
+        {
+          "name": "GET /api/bias/audit",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/bias/audit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "bias",
+                "audit"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "board-pack",
+      "item": [
+        {
+          "name": "GET /api/board-pack",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/board-pack",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "board-pack"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/board-pack/exec-summary",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/board-pack/exec-summary",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "board-pack",
+                "exec-summary"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "board-prep",
+      "item": [
+        {
+          "name": "POST /api/board-prep/assemble",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/board-prep/assemble",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "board-prep",
+                "assemble"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/board-prep/post-meeting",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/board-prep/post-meeting",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "board-prep",
+                "post-meeting"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "calibration",
+      "item": [
+        {
+          "name": "GET /api/calibration",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/calibration",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "calibration"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/calibration/record",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/calibration/record",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "calibration",
+                "record"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/calibration/roi",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/calibration/roi",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "calibration",
+                "roi"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "canonical-records",
+      "item": [
+        {
+          "name": "GET /api/canonical-records",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/canonical-records",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "canonical-records"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/canonical-records",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/canonical-records",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "canonical-records"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "capabilities",
+      "item": [
+        {
+          "name": "POST /api/capabilities/people/churn-risk",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/capabilities/people/churn-risk",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "capabilities",
+                "people",
+                "churn-risk"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/capabilities/trust/score",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/capabilities/trust/score",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "capabilities",
+                "trust",
+                "score"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/capabilities/causal/propagate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/capabilities/causal/propagate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "capabilities",
+                "causal",
+                "propagate"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "causal",
+      "item": [
+        {
+          "name": "POST /api/causal/attribute",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/causal/attribute",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "causal",
+                "attribute"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/causal/report",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/causal/report",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "causal",
+                "report"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/causal/evaluate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/causal/evaluate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "causal",
+                "evaluate"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "chaos",
+      "item": [
+        {
+          "name": "POST /api/chaos/run",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/chaos/run",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "chaos",
+                "run"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/chaos/health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/chaos/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "chaos",
+                "health"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "chief-of-staff",
+      "item": [
+        {
+          "name": "POST /api/chief-of-staff/morning-briefing",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/chief-of-staff/morning-briefing",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "chief-of-staff",
+                "morning-briefing"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/chief-of-staff/midday-check",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/chief-of-staff/midday-check",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "chief-of-staff",
+                "midday-check"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/chief-of-staff/evening-wrap",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/chief-of-staff/evening-wrap",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "chief-of-staff",
+                "evening-wrap"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "circuit-breaker",
+      "item": [
+        {
+          "name": "GET /api/circuit-breaker/health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/circuit-breaker/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "circuit-breaker",
+                "health"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/circuit-breaker/create",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/circuit-breaker/create",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "circuit-breaker",
+                "create"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "close-to-report",
+      "item": [
+        {
+          "name": "POST /api/close-to-report/run",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/close-to-report/run",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "close-to-report",
+                "run"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "coach",
+      "item": [
+        {
+          "name": "POST /api/coach/ask",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/coach/ask",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "coach",
+                "ask"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/coach/verify",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/coach/verify",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "coach",
+                "verify"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/coach/answers",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/coach/answers",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "coach",
+                "answers"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/coach/answers/verify",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/coach/answers/verify",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "coach",
+                "answers",
+                "verify"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "cognitive-diversity",
+      "item": [
+        {
+          "name": "POST /api/cognitive-diversity/team",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/cognitive-diversity/team",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "cognitive-diversity",
+                "team"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/cognitive-diversity/org",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/cognitive-diversity/org",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "cognitive-diversity",
+                "org"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/cognitive-diversity/hire-recommendation",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/cognitive-diversity/hire-recommendation",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "cognitive-diversity",
+                "hire-recommendation"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "collab",
+      "item": [
+        {
+          "name": "GET /api/collab/health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/collab/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "collab",
+                "health"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/collab/edit",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/collab/edit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "collab",
+                "edit"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "compliance",
+      "item": [
+        {
+          "name": "GET /api/compliance/scan",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/compliance/scan",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "compliance",
+                "scan"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/compliance/package",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/compliance/package",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "compliance",
+                "package"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/compliance/calendar",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/compliance/calendar",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "compliance",
+                "calendar"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/compliance/obligations",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/compliance/obligations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "compliance",
+                "obligations"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/compliance/obligations/submit",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/compliance/obligations/submit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "compliance",
+                "obligations",
+                "submit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/compliance/soc2-iso",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/compliance/soc2-iso",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "compliance",
+                "soc2-iso"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "config",
+      "item": [
+        {
+          "name": "GET /api/config",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/config",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "config"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "conflict-warning",
+      "item": [
+        {
+          "name": "GET /api/conflict-warning",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/conflict-warning",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "conflict-warning"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "conflicts",
+      "item": [
+        {
+          "name": "POST /api/conflicts/outcome",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/conflicts/outcome",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "conflicts",
+                "outcome"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/conflicts/personal",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/conflicts/personal",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "conflicts",
+                "personal"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/conflicts/personal",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/conflicts/personal",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "conflicts",
+                "personal"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "connector",
+      "item": [
+        {
+          "name": "POST /api/connector/bank-import",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/connector/bank-import",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "connector",
+                "bank-import"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "connectors",
+      "item": [
+        {
+          "name": "GET /api/connectors",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/connectors",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "connectors"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/connectors/config",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/connectors/config",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "connectors",
+                "config"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/connectors/config",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/connectors/config",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "connectors",
+                "config"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/connectors/writeback",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/connectors/writeback",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "connectors",
+                "writeback"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/connectors/checkpoint",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/connectors/checkpoint",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "connectors",
+                "checkpoint"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/connectors/failure",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/connectors/failure",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "connectors",
+                "failure"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/connectors/dead-letter",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/connectors/dead-letter",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "connectors",
+                "dead-letter"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/connectors/retry-due",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/connectors/retry-due",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "connectors",
+                "retry-due"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/connectors/replay",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/connectors/replay",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "connectors",
+                "replay"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/connectors/health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/connectors/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "connectors",
+                "health"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "consent",
+      "item": [
+        {
+          "name": "GET /api/consent/banner",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/consent/banner",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "consent",
+                "banner"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/consent/grant",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/consent/grant",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "consent",
+                "grant"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/consent/compliance",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/consent/compliance",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "consent",
+                "compliance"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "consistency",
+      "item": [
+        {
+          "name": "GET /api/consistency/scan",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/consistency/scan",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "consistency",
+                "scan"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "contracts",
+      "item": [
+        {
+          "name": "GET /api/contracts",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/contracts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "contracts"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "control-center",
+      "item": [
+        {
+          "name": "GET /api/control-center",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/control-center",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "control-center"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "cost",
+      "item": [
+        {
+          "name": "POST /api/cost/allocate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/cost/allocate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "cost",
+                "allocate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/cost/budget-variance",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/cost/budget-variance",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "cost",
+                "budget-variance"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "crisis",
+      "item": [
+        {
+          "name": "POST /api/crisis/activate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/crisis/activate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "crisis",
+                "activate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/crisis/status",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/crisis/status",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "crisis",
+                "status"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/crisis/log",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/crisis/log",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "crisis",
+                "log"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/crisis/contain",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/crisis/contain",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "crisis",
+                "contain"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/crisis/close",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/crisis/close",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "crisis",
+                "close"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "crm",
+      "item": [
+        {
+          "name": "GET /api/crm/pipeline",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/crm/pipeline",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "crm",
+                "pipeline"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "culture",
+      "item": [
+        {
+          "name": "GET /api/culture/dashboard",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/culture/dashboard",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "culture",
+                "dashboard"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "dark-launch",
+      "item": [
+        {
+          "name": "GET /api/dark-launch",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dark-launch",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dark-launch"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/dark-launch",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dark-launch",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dark-launch"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "dashboard",
+      "item": [
+        {
+          "name": "GET /api/dashboard/roles",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dashboard/roles",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dashboard",
+                "roles"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/dashboard/",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dashboard/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dashboard"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "db",
+      "item": [
+        {
+          "name": "GET /api/db/migration-test",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/db/migration-test",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "db",
+                "migration-test"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/db/schema-validate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/db/schema-validate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "db",
+                "schema-validate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/db/pool-health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/db/pool-health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "db",
+                "pool-health"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/db/pool-optimize",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/db/pool-optimize",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "db",
+                "pool-optimize"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "decision-debt",
+      "item": [
+        {
+          "name": "POST /api/decision-debt/register",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/decision-debt/register",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "decision-debt",
+                "register"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/decision-debt/portfolio",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/decision-debt/portfolio",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "decision-debt",
+                "portfolio"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/decision-debt/resolve",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/decision-debt/resolve",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "decision-debt",
+                "resolve"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/decision-debt/trend",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/decision-debt/trend",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "decision-debt",
+                "trend"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "decisions",
+      "item": [
+        {
+          "name": "GET /api/decisions/trace",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/decisions/trace",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "decisions",
+                "trace"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/decisions/graph",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/decisions/graph",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "decisions",
+                "graph"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/decisions/outcomes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/decisions/outcomes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "decisions",
+                "outcomes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/decisions/outcomes",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/decisions/outcomes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "decisions",
+                "outcomes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/decisions/outcomes/resolve",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/decisions/outcomes/resolve",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "decisions",
+                "outcomes",
+                "resolve"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/decisions/simulate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/decisions/simulate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "decisions",
+                "simulate"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "dependencies",
+      "item": [
+        {
+          "name": "POST /api/dependencies/graph",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dependencies/graph",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dependencies",
+                "graph"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/dependencies/ripple",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dependencies/ripple",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dependencies",
+                "ripple"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/dependencies/break-scenarios",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dependencies/break-scenarios",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dependencies",
+                "break-scenarios"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/dependencies/hidden",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dependencies/hidden",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dependencies",
+                "hidden"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "deploy",
+      "item": [
+        {
+          "name": "POST /api/deploy/blue-green",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/deploy/blue-green",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "deploy",
+                "blue-green"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/deploy/rollback",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/deploy/rollback",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "deploy",
+                "rollback"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "digital-twin",
+      "item": [
+        {
+          "name": "GET /api/digital-twin",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/digital-twin",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "digital-twin"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/digital-twin/propagate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/digital-twin/propagate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "digital-twin",
+                "propagate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/digital-twin/counterfactual",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/digital-twin/counterfactual",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "digital-twin",
+                "counterfactual"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "dpia",
+      "item": [
+        {
+          "name": "GET /api/dpia",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dpia",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dpia"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/dpia",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dpia",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dpia"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "dr",
+      "item": [
+        {
+          "name": "GET /api/dr/simulate",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dr/simulate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dr",
+                "simulate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/dr/verify-backups",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dr/verify-backups",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dr",
+                "verify-backups"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsar",
+      "item": [
+        {
+          "name": "POST /api/dsar/create",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dsar/create",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dsar",
+                "create"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/dsar/dashboard",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dsar/dashboard",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dsar",
+                "dashboard"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/dsar/compliance-report",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/dsar/compliance-report",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "dsar",
+                "compliance-report"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "esg",
+      "item": [
+        {
+          "name": "GET /api/esg/disclosure-pack",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/esg/disclosure-pack",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "esg",
+                "disclosure-pack"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/esg/carbon",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/esg/carbon",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "esg",
+                "carbon"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/esg/dei",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/esg/dei",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "esg",
+                "dei"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "events",
+      "item": [
+        {
+          "name": "GET /api/events",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/events",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "events"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/events",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/events",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "events"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "evidence",
+      "item": [
+        {
+          "name": "GET /api/evidence/package",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/evidence/package",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "evidence",
+                "package"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "experiments",
+      "item": [
+        {
+          "name": "GET /api/experiments",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/experiments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "experiments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/experiments",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/experiments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "experiments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/experiments/assign",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/experiments/assign",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "experiments",
+                "assign"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/experiments/outcome",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/experiments/outcome",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "experiments",
+                "outcome"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/experiments/analyze",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/experiments/analyze",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "experiments",
+                "analyze"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "explainability",
+      "item": [
+        {
+          "name": "GET /api/explainability/unified",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/explainability/unified",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "explainability",
+                "unified"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/explainability/gaps",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/explainability/gaps",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "explainability",
+                "gaps"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "feedback-360",
+      "item": [
+        {
+          "name": "GET /api/feedback-360",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/feedback-360",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "feedback-360"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/feedback-360/anonymize",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/feedback-360/anonymize",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "feedback-360",
+                "anonymize"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "finance",
+      "item": [
+        {
+          "name": "GET /api/finance/journal",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/journal",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "journal"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/journal",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/journal",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "journal"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/period-close",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/period-close",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "period-close"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/finance/verify-trial-balance",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/verify-trial-balance",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "verify-trial-balance"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/validate-entry",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/validate-entry",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "validate-entry"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/finance/reconciliation-report",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/reconciliation-report",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "reconciliation-report"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/reconcile-entry",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/reconcile-entry",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "reconcile-entry"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/finance/three-way-match",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/three-way-match",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "three-way-match"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/finance/ledger-audit",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/ledger-audit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "ledger-audit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/period-close-double-entry",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/period-close-double-entry",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "period-close-double-entry"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/finance/operations",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/operations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "operations"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/operations",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/operations",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "operations"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/three-way-match",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/three-way-match",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "three-way-match"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/bank-feed",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/bank-feed",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "bank-feed"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/rates",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/rates",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "rates"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/reconcile",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/reconcile",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "reconcile"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/payment-instructions",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/payment-instructions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "payment-instructions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/close",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/close",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "close"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/close/reopen",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/close/reopen",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "close",
+                "reopen"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/finance/close/status",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/close/status",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "close",
+                "status"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/finance/ap",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/ap",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "ap"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/ap",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/ap",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "ap"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/finance/ar",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/ar",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "ar"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/finance/payroll/run",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/payroll/run",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "payroll",
+                "run"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/finance/assets",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/assets",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "assets"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/finance/inventory",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/finance/inventory",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "finance",
+                "inventory"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "financial-statements",
+      "item": [
+        {
+          "name": "GET /api/financial-statements/pnl",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/financial-statements/pnl",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "financial-statements",
+                "pnl"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/financial-statements/balance-sheet",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/financial-statements/balance-sheet",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "financial-statements",
+                "balance-sheet"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/financial-statements/cashflow",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/financial-statements/cashflow",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "financial-statements",
+                "cashflow"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/financial-statements/full",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/financial-statements/full",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "financial-statements",
+                "full"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "forecasts",
+      "item": [
+        {
+          "name": "GET /api/forecasts",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/forecasts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "forecasts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/forecasts",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/forecasts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "forecasts"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/forecasts/actual",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/forecasts/actual",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "forecasts",
+                "actual"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "forensic-audit",
+      "item": [
+        {
+          "name": "GET /api/forensic-audit",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/forensic-audit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "forensic-audit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/forensic-audit/report",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/forensic-audit/report",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "forensic-audit",
+                "report"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/forensic-audit/export",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/forensic-audit/export",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "forensic-audit",
+                "export"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "fraud",
+      "item": [
+        {
+          "name": "POST /api/fraud/scan",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/fraud/scan",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "fraud",
+                "scan"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/fraud/heat-map",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/fraud/heat-map",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "fraud",
+                "heat-map"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "fx",
+      "item": [
+        {
+          "name": "GET /api/fx/exposure",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/fx/exposure",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "fx",
+                "exposure"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/fx/consolidate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/fx/consolidate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "fx",
+                "consolidate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/fx/rates",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/fx/rates",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "fx",
+                "rates"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "geopolitical-risk",
+      "item": [
+        {
+          "name": "GET /api/geopolitical-risk",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/geopolitical-risk",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "geopolitical-risk"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/geopolitical-risk/supply-chain",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/geopolitical-risk/supply-chain",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "geopolitical-risk",
+                "supply-chain"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "governance",
+      "item": [
+        {
+          "name": "GET /api/governance",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/governance",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "governance"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/governance/decisions",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/governance/decisions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "governance",
+                "decisions"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/governance/actions",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/governance/actions",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "governance",
+                "actions"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "graph",
+      "item": [
+        {
+          "name": "GET /api/graph",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/graph",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "graph"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "graphql",
+      "item": [
+        {
+          "name": "POST /api/graphql",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/graphql",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "graphql"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/graphql/schema",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/graphql/schema",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "graphql",
+                "schema"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "health",
+      "item": [
+        {
+          "name": "GET /api/health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "health"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "incidents",
+      "item": [
+        {
+          "name": "GET /api/incidents",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/incidents",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "incidents"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/incidents",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/incidents",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "incidents"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/incidents/action",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/incidents/action",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "incidents",
+                "action"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "innovation",
+      "item": [
+        {
+          "name": "POST /api/innovation/score",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/innovation/score",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "innovation",
+                "score"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/innovation/gate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/innovation/gate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "innovation",
+                "gate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/innovation/portfolio",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/innovation/portfolio",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "innovation",
+                "portfolio"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/innovation/auto-kill",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/innovation/auto-kill",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "innovation",
+                "auto-kill"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/innovation/zombies",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/innovation/zombies",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "innovation",
+                "zombies"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "insights",
+      "item": [
+        {
+          "name": "POST /api/insights/verify",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/insights/verify",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "insights",
+                "verify"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "integrity",
+      "item": [
+        {
+          "name": "GET /api/integrity",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/integrity",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "integrity"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/integrity",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/integrity",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "integrity"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "jobs",
+      "item": [
+        {
+          "name": "GET /api/jobs",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/jobs",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "jobs"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/jobs/claim",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/jobs/claim",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "jobs",
+                "claim"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/jobs/renew",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/jobs/renew",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "jobs",
+                "renew"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/jobs/release",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/jobs/release",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "jobs",
+                "release"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/jobs/complete",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/jobs/complete",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "jobs",
+                "complete"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "journeys",
+      "item": [
+        {
+          "name": "POST /api/journeys/run",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/journeys/run",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "journeys",
+                "run"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/journeys/",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/journeys/",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "journeys"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "k8s",
+      "item": [
+        {
+          "name": "GET /api/k8s/deployment-plan",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/k8s/deployment-plan",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "k8s",
+                "deployment-plan"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/k8s/validate",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/k8s/validate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "k8s",
+                "validate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/k8s/cost-estimate",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/k8s/cost-estimate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "k8s",
+                "cost-estimate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/k8s/readiness",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/k8s/readiness",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "k8s",
+                "readiness"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "knowledge",
+      "item": [
+        {
+          "name": "GET /api/knowledge/dashboard",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/knowledge/dashboard",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "knowledge",
+                "dashboard"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/knowledge/bus-factor",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/knowledge/bus-factor",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "knowledge",
+                "bus-factor"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/knowledge/transfer-plan",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/knowledge/transfer-plan",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "knowledge",
+                "transfer-plan"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "leadership-fingerprint",
+      "item": [
+        {
+          "name": "GET /api/leadership-fingerprint",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/leadership-fingerprint",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "leadership-fingerprint"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/leadership-fingerprint/evidence",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/leadership-fingerprint/evidence",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "leadership-fingerprint",
+                "evidence"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "learning",
+      "item": [
+        {
+          "name": "GET /api/learning/weekly",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/learning/weekly",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "learning",
+                "weekly"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/learning/experiments",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/learning/experiments",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "learning",
+                "experiments"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/learning/org-score",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/learning/org-score",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "learning",
+                "org-score"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "load-test",
+      "item": [
+        {
+          "name": "POST /api/load-test/plan",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/load-test/plan",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "load-test",
+                "plan"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/load-test/stress",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/load-test/stress",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "load-test",
+                "stress"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "longitudinal-sim",
+      "item": [
+        {
+          "name": "POST /api/longitudinal-sim/run",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/longitudinal-sim/run",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "longitudinal-sim",
+                "run"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/longitudinal-sim/compare",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/longitudinal-sim/compare",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "longitudinal-sim",
+                "compare"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/longitudinal-sim/stress-test",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/longitudinal-sim/stress-test",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "longitudinal-sim",
+                "stress-test"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "market",
+      "item": [
+        {
+          "name": "GET /api/market/quotes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/market/quotes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "market",
+                "quotes"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "meetings",
+      "item": [
+        {
+          "name": "GET /api/meetings/analyze",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/meetings/analyze",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "meetings",
+                "analyze"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "memory",
+      "item": [
+        {
+          "name": "POST /api/memory/capture",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/memory/capture",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "memory",
+                "capture"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/memory/search",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/memory/search",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "memory",
+                "search"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/memory/knowledge-map",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/memory/knowledge-map",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "memory",
+                "knowledge-map"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mentorship",
+      "item": [
+        {
+          "name": "GET /api/mentorship/match",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mentorship/match",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mentorship",
+                "match"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/mentorship/succession",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mentorship/succession",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mentorship",
+                "succession"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "metrics",
+      "item": [
+        {
+          "name": "GET /api/metrics",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/metrics",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "metrics"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "ml",
+      "item": [
+        {
+          "name": "POST /api/ml/infer",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/ml/infer",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "ml",
+                "infer"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/ml/models",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/ml/models",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "ml",
+                "models"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "item": [
+        {
+          "name": "POST /api/mobile/config",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mobile/config",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mobile",
+                "config"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/mobile/send",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mobile/send",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mobile",
+                "send"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/mobile/register-device",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mobile/register-device",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mobile",
+                "register-device"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "models",
+      "item": [
+        {
+          "name": "GET /api/models",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/models",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "models"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/models",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/models",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "models"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/models/validate",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/models/validate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "models",
+                "validate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/models/drift",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/models/drift",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "models",
+                "drift"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/models/fairness",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/models/fairness",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "models",
+                "fairness"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/models/train",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/models/train",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "models",
+                "train"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "mq",
+      "item": [
+        {
+          "name": "POST /api/mq/publish",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mq/publish",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mq",
+                "publish"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/mq/health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mq/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mq",
+                "health"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/mq/topics",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mq/topics",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mq",
+                "topics"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/mq/pending",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mq/pending",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mq",
+                "pending"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/mq/dead-letter",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mq/dead-letter",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mq",
+                "dead-letter"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/mq/claim",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mq/claim",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mq",
+                "claim"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/mq/ack",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mq/ack",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mq",
+                "ack"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/mq/fail",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mq/fail",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mq",
+                "fail"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/mq/replay",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/mq/replay",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "mq",
+                "replay"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "multi-region",
+      "item": [
+        {
+          "name": "POST /api/multi-region/topology",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/multi-region/topology",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "multi-region",
+                "topology"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/multi-region/failover",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/multi-region/failover",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "multi-region",
+                "failover"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/multi-region/residency",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/multi-region/residency",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "multi-region",
+                "residency"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "narrative",
+      "item": [
+        {
+          "name": "GET /api/narrative/ceo-letter",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/narrative/ceo-letter",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "narrative",
+                "ceo-letter"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/narrative/qbr",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/narrative/qbr",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "narrative",
+                "qbr"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/narrative/board",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/narrative/board",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "narrative",
+                "board"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "notary",
+      "item": [
+        {
+          "name": "POST /api/notary/anchor",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/notary/anchor",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "notary",
+                "anchor"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "observability",
+      "item": [
+        {
+          "name": "GET /api/observability/metrics-export",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/observability/metrics-export",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "observability",
+                "metrics-export"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/observability/slos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/observability/slos",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "observability",
+                "slos"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/observability/health-deep",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/observability/health-deep",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "observability",
+                "health-deep"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "offline",
+      "item": [
+        {
+          "name": "POST /api/offline/sync",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/offline/sync",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "offline",
+                "sync"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/offline/health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/offline/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "offline",
+                "health"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "oidc",
+      "item": [
+        {
+          "name": "GET /api/oidc/start",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/oidc/start",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "oidc",
+                "start"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/oidc/callback",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/oidc/callback",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "oidc",
+                "callback"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "okr",
+      "item": [
+        {
+          "name": "POST /api/okr/sync",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/okr/sync",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "okr",
+                "sync"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/okr/dashboard",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/okr/dashboard",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "okr",
+                "dashboard"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "onboarding",
+      "item": [
+        {
+          "name": "POST /api/onboarding/generate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/onboarding/generate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "onboarding",
+                "generate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/onboarding/templates",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/onboarding/templates",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "onboarding",
+                "templates"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "openapi",
+      "item": [
+        {
+          "name": "GET /api/openapi/spec",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/openapi/spec",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "openapi",
+                "spec"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "optionality",
+      "item": [
+        {
+          "name": "POST /api/optionality/value",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/optionality/value",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "optionality",
+                "value"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/optionality/portfolio",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/optionality/portfolio",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "optionality",
+                "portfolio"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/optionality/frontier",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/optionality/frontier",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "optionality",
+                "frontier"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "outcomes",
+      "item": [
+        {
+          "name": "GET /api/outcomes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/outcomes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "outcomes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/outcomes",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/outcomes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "outcomes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/outcomes/refresh",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/outcomes/refresh",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "outcomes",
+                "refresh"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/outcomes/apply-calibration",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/outcomes/apply-calibration",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "outcomes",
+                "apply-calibration"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "people",
+      "item": [
+        {
+          "name": "GET /api/people/index",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/people/index",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "people",
+                "index"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/people/resolve",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/people/resolve",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "people",
+                "resolve"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "plugins",
+      "item": [
+        {
+          "name": "POST /api/plugins/register",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/plugins/register",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "plugins",
+                "register"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/plugins/list",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/plugins/list",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "plugins",
+                "list"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/plugins/capabilities",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/plugins/capabilities",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "plugins",
+                "capabilities"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "policy",
+      "item": [
+        {
+          "name": "GET /api/policy",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/policy",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "policy"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/policy/evaluate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/policy/evaluate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "policy",
+                "evaluate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/policy/recalibrate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/policy/recalibrate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "policy",
+                "recalibrate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/policy/from-incident",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/policy/from-incident",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "policy",
+                "from-incident"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/policy/approve",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/policy/approve",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "policy",
+                "approve"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/policy/effectiveness",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/policy/effectiveness",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "policy",
+                "effectiveness"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "portfolio",
+      "item": [
+        {
+          "name": "POST /api/portfolio/optimize",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/portfolio/optimize",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "portfolio",
+                "optimize"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "privacy",
+      "item": [
+        {
+          "name": "POST /api/privacy/consent",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/privacy/consent",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "privacy",
+                "consent"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/privacy/check",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/privacy/check",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "privacy",
+                "check"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "production",
+      "item": [
+        {
+          "name": "GET /api/production/hardening-report",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/production/hardening-report",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "production",
+                "hardening-report"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/production/headers",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/production/headers",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "production",
+                "headers"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "pulse",
+      "item": [
+        {
+          "name": "POST /api/pulse/generate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/pulse/generate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "pulse",
+                "generate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/pulse/health",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/pulse/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "pulse",
+                "health"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/pulse/burnout-warning",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/pulse/burnout-warning",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "pulse",
+                "burnout-warning"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "readiness",
+      "item": [
+        {
+          "name": "GET /api/readiness",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/readiness",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "readiness"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "realtime",
+      "item": [
+        {
+          "name": "GET /api/realtime/sse",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/realtime/sse",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "realtime",
+                "sse"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/realtime/health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/realtime/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "realtime",
+                "health"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/realtime/ws-health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/realtime/ws-health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "realtime",
+                "ws-health"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/realtime/ws-broadcast",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/realtime/ws-broadcast",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "realtime",
+                "ws-broadcast"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "regression",
+      "item": [
+        {
+          "name": "POST /api/regression/check",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/regression/check",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "regression",
+                "check"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/regression/gate",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/regression/gate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "regression",
+                "gate"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "regulatory",
+      "item": [
+        {
+          "name": "POST /api/regulatory/assess",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/regulatory/assess",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "regulatory",
+                "assess"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/regulatory/horizon-scan",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/regulatory/horizon-scan",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "regulatory",
+                "horizon-scan"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/regulatory/escalate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/regulatory/escalate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "regulatory",
+                "escalate"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "resources",
+      "item": [
+        {
+          "name": "GET /api/resources/utilization",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/resources/utilization",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "resources",
+                "utilization"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "restore",
+      "item": [
+        {
+          "name": "POST /api/restore/drill",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/restore/drill",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "restore",
+                "drill"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "retention",
+      "item": [
+        {
+          "name": "GET /api/retention/policy",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/retention/policy",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "retention",
+                "policy"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/retention/hold",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/retention/hold",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "retention",
+                "hold"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/retention/purge",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/retention/purge",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "retention",
+                "purge"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "risk",
+      "item": [
+        {
+          "name": "GET /api/risk/assessment",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/risk/assessment",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "risk",
+                "assessment"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/risk/portfolio",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/risk/portfolio",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "risk",
+                "portfolio"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "roadmap",
+      "item": [
+        {
+          "name": "GET /api/roadmap",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/roadmap",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "roadmap"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "safeguarding",
+      "item": [
+        {
+          "name": "GET /api/safeguarding",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/safeguarding",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "safeguarding"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/safeguarding",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/safeguarding",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "safeguarding"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "schema",
+      "item": [
+        {
+          "name": "POST /api/schema/compatibility",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/schema/compatibility",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "schema",
+                "compatibility"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/schema/registry",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/schema/registry",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "schema",
+                "registry"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "sdk",
+      "item": [
+        {
+          "name": "GET /api/sdk/typescript",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/sdk/typescript",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "sdk",
+                "typescript"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/sdk/python",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/sdk/python",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "sdk",
+                "python"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "secrets",
+      "item": [
+        {
+          "name": "GET /api/secrets/due",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/secrets/due",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "secrets",
+                "due"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/secrets/rotate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/secrets/rotate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "secrets",
+                "rotate"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "security",
+      "item": [
+        {
+          "name": "POST /api/security/threat-model",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/security/threat-model",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "security",
+                "threat-model"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/security/threat-matrix",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/security/threat-matrix",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "security",
+                "threat-matrix"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/security/field-encrypt",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/security/field-encrypt",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "security",
+                "field-encrypt"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/security/field-decrypt",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/security/field-decrypt",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "security",
+                "field-decrypt"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/security/field-audit",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/security/field-audit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "security",
+                "field-audit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/security/secrets-audit",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/security/secrets-audit",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "security",
+                "secrets-audit"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/security/secrets-report",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/security/secrets-report",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "security",
+                "secrets-report"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/security/dependency-scan",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/security/dependency-scan",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "security",
+                "dependency-scan"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/security/posture",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/security/posture",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "security",
+                "posture"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/security/calibration-gaming",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/security/calibration-gaming",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "security",
+                "calibration-gaming"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/security/integrity-full",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/security/integrity-full",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "security",
+                "integrity-full"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "sentiment",
+      "item": [
+        {
+          "name": "POST /api/sentiment/text",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/sentiment/text",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "sentiment",
+                "text"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/sentiment/org-dashboard",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/sentiment/org-dashboard",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "sentiment",
+                "org-dashboard"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "signatures",
+      "item": [
+        {
+          "name": "POST /api/signatures/sign",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/signatures/sign",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "signatures",
+                "sign"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/signatures/verify",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/signatures/verify",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "signatures",
+                "verify"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "sla",
+      "item": [
+        {
+          "name": "GET /api/sla",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/sla",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "sla"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "succession",
+      "item": [
+        {
+          "name": "POST /api/succession/simulate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/succession/simulate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "succession",
+                "simulate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/succession/bus-factors",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/succession/bus-factors",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "succession",
+                "bus-factors"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "system-twin",
+      "item": [
+        {
+          "name": "GET /api/system-twin",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/system-twin",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "system-twin"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/system-twin/what-if",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/system-twin/what-if",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "system-twin",
+                "what-if"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "talent-marketplace",
+      "item": [
+        {
+          "name": "POST /api/talent-marketplace/rank",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/talent-marketplace/rank",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "talent-marketplace",
+                "rank"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/talent-marketplace/succession",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/talent-marketplace/succession",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "talent-marketplace",
+                "succession"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "tax",
+      "item": [
+        {
+          "name": "POST /api/tax/corporate",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/tax/corporate",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "tax",
+                "corporate"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/tax/vat",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/tax/vat",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "tax",
+                "vat"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/tax/calendar",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/tax/calendar",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "tax",
+                "calendar"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "tenant",
+      "item": [
+        {
+          "name": "GET /api/tenant/verify-isolation",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/tenant/verify-isolation",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "tenant",
+                "verify-isolation"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/tenant/export",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/tenant/export",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "tenant",
+                "export"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "tracing",
+      "item": [
+        {
+          "name": "GET /api/tracing/spans",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/tracing/spans",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "tracing",
+                "spans"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/tracing/summary",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/tracing/summary",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "tracing",
+                "summary"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/tracing/start",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/tracing/start",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "tracing",
+                "start"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/tracing/propagation-health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/tracing/propagation-health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "tracing",
+                "propagation-health"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "trend",
+      "item": [
+        {
+          "name": "GET /api/trend",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/trend",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "trend"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "triage",
+      "item": [
+        {
+          "name": "GET /api/triage",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/triage",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "triage"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/triage/briefing",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/triage/briefing",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "triage",
+                "briefing"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/triage/signals",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/triage/signals",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "triage",
+                "signals"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "trust",
+      "item": [
+        {
+          "name": "GET /api/trust/anchor",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/trust/anchor",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "trust",
+                "anchor"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/trust/anchor/verify",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/trust/anchor/verify",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "trust",
+                "anchor",
+                "verify"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "vendors",
+      "item": [
+        {
+          "name": "GET /api/vendors/portfolio",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/vendors/portfolio",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "vendors",
+                "portfolio"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "wargaming",
+      "item": [
+        {
+          "name": "POST /api/wargaming/run",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/wargaming/run",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "wargaming",
+                "run"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/wargaming/tabletop",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/wargaming/tabletop",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "wargaming",
+                "tabletop"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "watchdog",
+      "item": [
+        {
+          "name": "GET /api/watchdog/status",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/watchdog/status",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "watchdog",
+                "status"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/watchdog/attest",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/watchdog/attest",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "watchdog",
+                "attest"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/watchdog/verify",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/watchdog/verify",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "watchdog",
+                "verify"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "webhooks",
+      "item": [
+        {
+          "name": "POST /api/webhooks/slack",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/webhooks/slack",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "webhooks",
+                "slack"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/webhooks/health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/webhooks/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "webhooks",
+                "health"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/webhooks",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/webhooks",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "webhooks"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/webhooks",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/webhooks",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "webhooks"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/webhooks/dispatch",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/webhooks/dispatch",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "webhooks",
+                "dispatch"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "workforce",
+      "item": [
+        {
+          "name": "GET /api/workforce/headcount",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/workforce/headcount",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "workforce",
+                "headcount"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/workforce/skill-gaps",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/workforce/skill-gaps",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "workforce",
+                "skill-gaps"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/workforce/dashboard",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/workforce/dashboard",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "workforce",
+                "dashboard"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "workspace",
+      "item": [
+        {
+          "name": "GET /api/workspace",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/workspace",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "workspace"
+              ]
+            }
+          }
+        },
+        {
+          "name": "PUT /api/workspace",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/workspace",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "workspace"
+              ]
+            }
+          }
+        },
+        {
+          "name": "GET /api/workspace/history",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/workspace/history",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "workspace",
+                "history"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/workspace/restore",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/workspace/restore",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "workspace",
+                "restore"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "worm",
+      "item": [
+        {
+          "name": "GET /api/worm",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/worm",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "worm"
+              ]
+            }
+          }
+        },
+        {
+          "name": "POST /api/worm",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/worm",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "worm"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

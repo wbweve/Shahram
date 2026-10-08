@@ -1,0 +1,75 @@
+# Runtime data — never commit
+server-data/
+server-backups/
+coverage/
+
+# Production env template is committed — the production-contracts test reads it.
+# (The repo-root .gitignore ignores .env.* wholesale; this un-ignores the example template.)
+!.env.production.example
+
+# Generated evaluation reports (nightly CI uploads these as artifacts).
+# The golden BASELINE is the deliberate exception — it must be committed so
+# the drift gate has something to compare against.
+eval-reports/*
+!eval-reports/golden-baseline.json
+
+# Deep-walk evidence output (written by worker-real.cjs / run-100-projects.cjs)
+evidence/
+evidence-before-full120/
+
+# Generated test/regression screenshots
+screenshots/
+
+# Mutation-testing sandbox + Playwright run artifacts
+.stryker-tmp/
+test-results/
+reports/mutation/
+
+# Browser E2E seed-data mutations (e2e webServer writes at runtime)
+e2e-data/
+e2e-data-rolefix/
+leadership-experiment-api-*/
+
+# Load/regression probe data (written by .load-* harness runs)
+.load-probe-data/
+.load-test-data-*/
+logs/
+server-test-data-*/
+coach-test-data-*/
+conversational-memory-test-data-*/
+dbg-data-*/
+
+# Ad-hoc diagnostic run output (black-box probes, view-by-view diag reports)
+*.log
+diag-report.json
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Auth store (sessions/lockouts) — runtime user data, never commit
+data/
+
+# Nightly browser-gate reports (CI uploads them as artifacts)
+reports/nightly/
+scripts/dev/i18n-shots/
+
+# Test-run residue: per-workspace intelligence stores written by suite runs
+leadership-app/db/
+db/
+
+# Local scratch / diagnostic artifacts (generated during dev/test - never commit)
+--full-page
+.agents/
+.freebuff/
+.github/agents/
+.superpowers/
+db-scratch-navigator/
+docs/superpowers/
+fix_exports.js
+proactive-surfaces-test-data-*/
+server.err
+start.js
+test-mentor-*.js
+test-voice.js
+tmp-*.js

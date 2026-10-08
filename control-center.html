@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leadership Platform — Control Center</title>
+<style>
+  :root { --bg:#0f1420; --card:#171e2e; --line:#26304a; --text:#e6ebf5; --muted:#93a0ba; --ok:#3ddc84; --warn:#f5a623; --bad:#f05252; --accent:#5b8cff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--text); }
+  header { display:flex; align-items:center; gap:16px; padding:18px 28px; border-bottom:1px solid var(--line); position:sticky; top:0; background:var(--bg); z-index:5; }
+  header h1 { font-size:18px; margin:0; }
+  .sub { color:var(--muted,#93a0ba); font-size:12px; margin-left:auto; }
+  main { padding:24px 28px; max-width:1200px; margin:0 auto; display:grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(340px,1fr)); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px; }
+  .card h2 { font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin:0 0 12px; }
+  .score { font-size:44px; font-weight:700; }
+  .score.ok { color:var(--ok); } .score.warn { color:var(--warn); } .score.crit { color:var(--warn); }
+  .band { font-size:13px; color:var(--muted); }
+  .grid { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; }
+  .stat { background:rgba(255,255,255,.03); border:1px solid var(--line); border-radius:8px; padding:10px; }
+  .stat b { display:block; font-size:20px; } .stat span { font-size:11px; color:var(--muted); }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; }
+  th,td { text-align:left; padding:7px 8px; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); font-weight:500; }
+  .pill { display:inline-block; padding:2px 8px; border-radius:99px; font-size:11px; }
+  .pill.allow { background:#123524; color:var(--ok); } .pill.review { background:#3a2c12; color:var(--warn); } .pill.block { background:#3a1414; color:var(--warn); }
+  .pill.yes { background:#123524; color:var(--ok); } .pill.no { background:#3a1414; color:var(--warn); }
+  button { background:var(--blue); color:#fff; border:0; border-radius:8px; padding:8px 14px; font-size:13px; cursor:pointer; }
+  button.secondary { background:transparent; border:1px solid var(--line); color:var(--text); }
+  .row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  .err { color:var(--warn); }
+  .mono { font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; word-break:break-all; }
+  footer { color:var(--muted); font-size:11px; padding:10px 28px 30px; max-width:1200px; margin:0 auto; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🛡 Control Center</h1>
+  <span class="sub">Leadership Platform — governance, automation &amp; trust at a glance</span>
+</header>
+<main id="app">
+  <div class="card"><div class="err">Loading…</div></div>
+</main>
+<footer>Read-only administration console. Data is fetched live from the platform API; nothing is stored by this page.</footer>
+<script src="js/control-center-ui.js"></script>
+</body>
+</html>

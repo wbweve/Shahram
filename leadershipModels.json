@@ -1,0 +1,1332 @@
+{
+  "models": [
+    {
+      "id": "situational-leadership-ii",
+      "name": "Situational Leadership II",
+      "author": "Ken Blanchard & Patricia Zigarmi, 1985",
+      "category": "individual-development",
+      "corePrinciple": "Effective leadership is not one style but a deliberate match between the leader's directive and supportive behaviour and a follower's development level on each specific task.",
+      "whenToApply": [
+        "A team member is enthusiastic but unskilled at a new task and is starting to make avoidable mistakes",
+        "The same person is fully capable in one area but lost in another, and you catch yourself leading them the same way in both",
+        "A colleague has just been promoted or moved into a role that changed their task profile",
+        "Delegation repeatedly bounces back to you, or a capable person accuses you of micromanaging",
+        "Onboarding a new hire whose confidence is dropping faster than their competence is growing"
+      ],
+      "steps": [
+        "1. Break the work into specific, observable tasks instead of leading the whole person at once",
+        "2. Assess the development level per task on two axes: competence (can they do it?) and commitment (will they do it, with confidence?)",
+        "3. Map the level to a style: D1 to S1 directing, D2 to S2 coaching, D3 to S3 supporting, D4 to S4 delegating",
+        "4. Say the style out loud — on this task I will give you the steps and check daily, on that one I will stay out of it",
+        "5. Match the behaviour: directive (goals, methods, timing, feedback) where competence is low, supportive (listening, questions, shared decisions) where commitment is low",
+        "6. Set a re-assessment date per task and change style only when the person's level has demonstrably changed",
+        "7. Push consciously toward S4: every D3 or D4 task is one more task you should stop leading"
+      ],
+      "diagnosticQuestions": [
+        "Am I diagnosing the person or the task? If I cannot name the task, this model cannot be applied yet",
+        "On this exact task, do I have evidence of both competence and commitment, or am I guessing from how the person behaves in meetings?",
+        "Which of my people am I leading with one uniform style today, and do their development levels actually match?",
+        "When did I last change my leadership style for someone, and what evidence triggered the change?"
+      ],
+      "commonMistakes": [
+        "Treating development level as a stable personality trait instead of a task-specific, temporary state",
+        "Labelling a person as S4 and delegating everything, including tasks where they are still D1",
+        "Reading the commitment drop at D2 as laziness and answering with more direction instead of coaching"
+      ],
+      "outcomeIndicators": [
+        "People ask fewer repeat questions on tasks they own and bring options instead of problems",
+        "You can name who owns what at which delegation level without checking notes",
+        "Direction requests per person decline task by task while output quality stays stable",
+        "Team members state their own development level and ask for the leadership behaviour they need"
+      ],
+      "relatedModels": ["path-goal-theory", "lmx", "leadership-pipeline", "grow-coaching"]
+    },
+    {
+      "id": "transformational-leadership",
+      "name": "Transformational Leadership",
+      "author": "Bernard M. Bass & Bruce J. Avolio, 1985/1994",
+      "category": "change",
+      "corePrinciple": "Leaders produce extraordinary performance by appealing to identity, purpose and higher standards — through idealized influence, inspirational motivation, intellectual stimulation and individualized consideration — rather than through exchanges alone.",
+      "whenToApply": [
+        "The organization needs a step-change in performance or direction and incremental management will not get there",
+        "People are competent but disconnected from why the work matters, and effort is quietly declining",
+        "A long-standing process or assumption needs to be questioned by the people who run it",
+        "A merger, reorganization or strategy shift has left identity and morale unsettled",
+        "You need to develop the next generation of leaders instead of only directing them"
+      ],
+      "steps": [
+        "1. Articulate a vision in concrete terms of the future state — name what will be measurably different, not a slogan",
+        "2. Model the standard yourself first: the values you ask for are visible in your calendar, your decisions and your reactions under pressure",
+        "3. Frame the work around meaning: connect daily tasks to the customer, product or mission outcome they serve",
+        "4. Challenge one core assumption per quarter in the open, and reward the person who disproved it",
+        "5. Practise individualized consideration: know each person's aspirations and give them development work that stretches toward it",
+        "6. Set a cadence of high but credible expectations, and follow every commitment with recognition or consequence",
+        "7. Watch for overuse: charisma without operational follow-through destroys trust faster than having no vision at all"
+      ],
+      "diagnosticQuestions": [
+        "Can I state the vision in one sentence that a frontline employee would recognize as their own reality?",
+        "Which of the four components — influence, inspiration, stimulation, consideration — is genuinely weakest in my current practice?",
+        "When did I last change my mind publicly because someone challenged my thinking?",
+        "Am I asking for extra effort without connecting it to a purpose people actually hold?"
+      ],
+      "commonMistakes": [
+        "Mistaking charisma for leadership: a compelling speech with no operational follow-through breeds cynicism",
+        "Constantly challenging the status quo without stabilizing anything, so the team lives in permanent disruption",
+        "Individualized consideration that becomes favouritism, developing only the high performers everyone can already name"
+      ],
+      "outcomeIndicators": [
+        "People repeat the strategy in their own words without prompting and connect their own tasks to it",
+        "Disagreement surfaces early in meetings instead of after the decision",
+        "Voluntary effort appears on the hardest problems — people opt in instead of waiting to be assigned",
+        "Development conversations happen across the team, including quiet performers, and retention holds through high-load periods"
+      ],
+      "relatedModels": ["authentic-leadership", "adaptive-leadership", "servant-leadership", "transactional-leadership"]
+    },
+    {
+      "id": "servant-leadership",
+      "name": "Servant Leadership",
+      "author": "Robert K. Greenleaf, 1970",
+      "category": "culture",
+      "corePrinciple": "The leader's first responsibility is to serve the growth and well-being of people and communities; authority is earned through contribution, not granted by position.",
+      "whenToApply": [
+        "Team trust is low after a period of self-serving or political management",
+        "You are building a service organization where the frontline's judgment is closer to the customer than yours",
+        "Retention problems point to people feeling used rather than developed",
+        "A decision has trade-offs between short-term output and long-term capability and you need a principled way to choose",
+        "You want an ownership culture where people stay because they grow"
+      ],
+      "steps": [
+        "1. Start with listening: hold one-to-ones where the agenda is theirs and you fix nothing unless asked",
+        "2. Map who depends on your decisions — team, peers, customers, the organization — and rank their needs before your own visibility",
+        "3. Remove obstacles publicly: take the unglamorous work, chase the resources, absorb the politics",
+        "4. Share power deliberately: push decisions to the people with the most information and publish who decides what",
+        "5. Invest in each person's growth with concrete commitments — training, exposure, feedback and time",
+        "6. Hold the line on standards: servant leadership is not softness, and serving people includes protecting them from poor work",
+        "7. Measure your leadership by the team's growth rather than by your own activity"
+      ],
+      "diagnosticQuestions": [
+        "Would my team describe my primary instinct as helping them succeed or making myself look good?",
+        "Whose needs did I deprioritize last week, and was that defensible?",
+        "Am I serving people by removing obstacles, or by taking over their work?",
+        "What power do I hold that someone closer to the work should hold instead?"
+      ],
+      "commonMistakes": [
+        "Confusing service with pleasing: avoiding hard feedback and hard decisions so nobody is ever uncomfortable",
+        "Taking over people's work to help them, which removes their learning and builds dependence",
+        "Neglecting upward and outward obligations — serving the team while failing the organization that funds it"
+      ],
+      "outcomeIndicators": [
+        "People bring problems early because they are not punished for them",
+        "Decisions are made at the lowest competent level without your involvement",
+        "Growth is visible: team members take on harder work and refer candidates to the team",
+        "In your absence, standards and support both hold — the team does not wait for you"
+      ],
+      "relatedModels": ["psychological-safety", "authentic-leadership", "transformational-leadership", "five-dysfunctions"]
+    },
+    {
+      "id": "adaptive-leadership",
+      "name": "Adaptive Leadership",
+      "author": "Ronald A. Heifetz, 1994",
+      "category": "change",
+      "corePrinciple": "Problems that persist are usually not technical but adaptive: they demand that people change values, habits or loyalties, and the leader's job is to expose the real conflict, keep the heat productive and let people do the learning themselves.",
+      "whenToApply": [
+        "The same problem keeps returning despite technically correct solutions and expert advice",
+        "Everyone agrees the situation must change but nobody will accept the loss it demands of them",
+        "The organization demands a fix from you that only the organization can deliver",
+        "People are asking for certainty and comfort when the real need is learning and trade-off",
+        "A conflict is being dismissed as resistance when it is actually a legitimate loss to someone"
+      ],
+      "steps": [
+        "1. Classify the problem: what part is technical (known procedure) and what part is adaptive (requires new learning, values or trade-offs)?",
+        "2. Name the adaptive challenge out loud and resist the pressure to frame it as a purely technical fix",
+        "3. Regulate the heat: raise discomfort enough to motivate change, lower it before it triggers denial or flight",
+        "4. Direct attention to the ripening issue: repeat it in many forums and let the countercurrent surface",
+        "5. Give the work back to the people who own the problem instead of answering the questions they should be answering",
+        "6. Protect voices of dissent and speak from the balcony — keep sight of the whole system while acting in the fray",
+        "7. Design interventions with a clear loss statement naming what people must give up, and plan for the counter-movements it will provoke"
+      ],
+      "diagnosticQuestions": [
+        "Is this problem solved by applying known expertise, or by people changing what they value or do?",
+        "What is the real loss this change imposes, and who experiences it?",
+        "Am I being asked to take the pain away, and would doing so actually solve anything?",
+        "Where is the conflict being avoided, and what would it cost me to surface it?"
+      ],
+      "commonMistakes": [
+        "Taking on the adaptive work yourself — answering questions people should be answering and burning out",
+        "Lowering the heat too early because the discomfort is uncomfortable for you too",
+        "Pathologizing resistance instead of hearing a legitimate loss and a valid perspective"
+      ],
+      "outcomeIndicators": [
+        "People change their behaviour and priorities, not just their language about the change",
+        "Discussions name trade-offs openly and the right people argue about the right things",
+        "The problem stops recurring because people changed, not because you changed things for them",
+        "Discomfort is tolerated at working levels without escalation into crisis or collapse"
+      ],
+      "relatedModels": ["transformational-leadership", "vuca-leadership", "psychological-safety", "first-90-days"]
+    },
+    {
+      "id": "lmx",
+      "name": "Leader-Member Exchange",
+      "author": "George Graen & Mary Uhl-Bien, 1995",
+      "category": "team-dynamics",
+      "corePrinciple": "Leadership happens in dyads: the quality of each one-to-one leader-member relationship — trust, respect and obligation — determines performance, retention and perceived fairness more than any team-wide programme.",
+      "whenToApply": [
+        "Output, engagement or loyalty is unevenly distributed across a team that receives the same formal treatment",
+        "You notice a small inner circle getting the interesting work while others drift toward disengagement",
+        "A new team or a new leader needs relationship foundations built from scratch",
+        "Feedback suggests some people see the assignment of opportunities as arbitrary or political",
+        "You are integrating a merged or reorganized team with inherited hierarchies"
+      ],
+      "steps": [
+        "1. Audit your dyads: list each person and honestly rate the relationship quality — trust, candor, mutual obligation",
+        "2. Identify out-group members by evidence (who gets the vague work, who gets skipped for exposure) rather than by feeling",
+        "3. Open each relationship with an explicit offer: expectations, support available, and what each side owes the other",
+        "4. Test and renegotiate individually — one person's trust is built by autonomy, another's by reliability and check-ins",
+        "5. Distribute challenging assignments and access on stated criteria, not on who is easiest to work with",
+        "6. Convert out-group relationships to leader-member quality one at a time, with scheduled follow-through",
+        "7. Review the portfolio quarterly: a healthy team shows almost no out-group at all"
+      ],
+      "diagnosticQuestions": [
+        "Who gets my time first when things are busy, and would the team agree with my answer?",
+        "Which of my working relationships run on real trust, and which run on formal authority?",
+        "When did I last deliberately invest in my weakest dyad?",
+        "Are opportunities in this team distributed by criteria I would be willing to publish?"
+      ],
+      "commonMistakes": [
+        "Accepting the in-group and out-group split as natural chemistry instead of a leadership choice with consequences",
+        "Offering the same relationship style to everyone, which reads as distant to some and intrusive to others",
+        "Confusing high-quality dyads with friendship and softening standards for the inner circle"
+      ],
+      "outcomeIndicators": [
+        "The gap in engagement and output between your strongest and weakest relationships shrinks",
+        "Former out-group members volunteer information, take on stretch work and stay",
+        "People describe opportunity distribution as fair even when they personally did not get the assignment",
+        "You get bad news early from everyone, not only from the inner circle"
+      ],
+      "relatedModels": ["situational-leadership-ii", "psychological-safety", "five-dysfunctions", "leadership-pipeline"]
+    },
+    {
+      "id": "path-goal-theory",
+      "name": "Path-Goal Theory",
+      "author": "Robert J. House, 1971/1996",
+      "category": "individual-development",
+      "corePrinciple": "The leader's job is to clear the path to valued goals: clarify expectations, remove obstacles, and match directive, supportive, participative or achievement-oriented behaviour to what the follower and the task need.",
+      "whenToApply": [
+        "People know their goals but keep stumbling over unclear expectations, dependencies or process friction",
+        "The team's work is ambiguous or repetitive and motivation is sagging",
+        "A capable person is demotivated despite good conditions, pointing to a mismatch between effort, performance and reward",
+        "Cross-team dependencies make progress unpredictable and people have stopped trying to fix them",
+        "Tasks are complex and stressful enough that support matters as much as direction"
+      ],
+      "steps": [
+        "1. Define the valued outcomes with each person — the goal must be something they actually want, not only what you want",
+        "2. Map the path: list every step, dependency and approval between the person and the outcome",
+        "3. Diagnose the obstacle type: unclear role, missing skill, missing tools, or blockers outside the team",
+        "4. Choose the behaviour: directive for ambiguity, supportive for stress, participative when people hold key knowledge, achievement-oriented for stretch capability",
+        "5. Remove the obstacles that are yours and broker the ones that sit with other functions",
+        "6. Link performance to outcomes explicitly — recognition, development, autonomy — so effort feels worth it",
+        "7. Re-walk the path monthly with each person and delete obstacles instead of explaining around them"
+      ],
+      "diagnosticQuestions": [
+        "If someone on my team fails at a task this week, is it more likely a clarity problem, a skill problem or an obstacle problem?",
+        "Do my people believe that extra effort will actually lead to something they value?",
+        "Which of the four behaviours do I default to regardless of what the situation needs?",
+        "What obstacles do my people work around every day that I have stopped seeing?"
+      ],
+      "commonMistakes": [
+        "Adding direction to a task that is already clear — over-supervising competence and demotivating people",
+        "Giving supportive behaviour where the real problem is structural, so people feel heard but nothing changes",
+        "Defining the goal for people without checking whether they value the outcome at all"
+      ],
+      "outcomeIndicators": [
+        "People can state their goal, the path and the current blocker without hesitation",
+        "Blockers get escalated and removed on a measurable cycle instead of being worked around",
+        "Effort rises when outcomes are made visible, and drop-offs trigger a path conversation rather than a performance label",
+        "Fewer status meetings are needed because expectations and dependencies are explicit"
+      ],
+      "relatedModels": ["situational-leadership-ii", "lmx", "grow-coaching", "transactional-leadership"]
+    },
+    {
+      "id": "goleman-six-styles",
+      "name": "The Six Leadership Styles",
+      "author": "Daniel Goleman, 2000",
+      "category": "culture",
+      "corePrinciple": "Leadership style is a repertoire, not a personality: switching deliberately among coercive, authoritative, affiliative, democratic, pacesetting and coaching styles — matched to the situation — is what moves team climate and results.",
+      "whenToApply": [
+        "Team climate is flat, anxious or hostile and results are following the mood down",
+        "You have one dominant leadership style and the team can predict your response to everything",
+        "A crisis demands immediate compliance while the normal culture demands participation",
+        "Results are fine but learning and initiative are not, and a pacesetting style is exhausting everyone",
+        "A team needs direction and meaning after a period of drift"
+      ],
+      "steps": [
+        "1. Diagnose the current climate honestly — ask or measure flexibility, responsibility, standards, clarity, commitment and trust",
+        "2. Identify the style you overuse under pressure and the one you avoid",
+        "3. Pick the style the situation needs: authoritative for new direction, coaching for development, affiliative for repair, democratic for buy-in and distributed knowledge, pacesetting for a short sprint with a highly skilled team, coercive only for genuine emergency",
+        "4. Announce the shift when you change style unexpectedly — this week we decide together, today I decide and I will explain why",
+        "5. Apply the style for a defined period rather than adopting it as your new permanent identity",
+        "6. Read the climate again and adjust: the outcome of the style is the test, not the intent",
+        "7. Practise deliberately — rehearse the styles you rarely use in low-stakes settings before relying on them"
+      ],
+      "diagnosticQuestions": [
+        "Which style did I use this week, and was it the one the situation needed or the one I default to?",
+        "What is my team's climate right now, and which style would most improve it?",
+        "When did I last use the coercive or pacesetting style, and did the situation truly justify it?",
+        "Do I know what each style feels like from the receiving end in my team?"
+      ],
+      "commonMistakes": [
+        "Leading with the pacesetting style as a default: standards hold while initiative, trust and learning collapse",
+        "Using the coercive style for convenience rather than genuine emergency, which permanently damages trust",
+        "Collecting all six styles but never reading the situation — matching style to mood instead of to need"
+      ],
+      "outcomeIndicators": [
+        "Climate indicators improve where they were weakest, especially clarity and trust",
+        "People can describe when you switch style and why, and find the switching legible rather than erratic",
+        "The team performs in both calm and crisis without a different person having to step in",
+        "Initiative returns: people propose and decide without waiting for your style to change first"
+      ],
+      "relatedModels": ["situational-leadership-ii", "transformational-leadership", "psychological-safety", "transactional-leadership"]
+    },
+    {
+      "id": "grow-coaching",
+      "name": "GROW Coaching Model",
+      "author": "John Whitmore, 1992",
+      "category": "coaching",
+      "corePrinciple": "Performance grows when the coach asks rather than tells: structure the conversation as Goal, Reality, Options and Will, and close it with a commitment and a follow-up date.",
+      "whenToApply": [
+        "A capable person brings you a problem they could solve themselves with better questions",
+        "Development conversations keep producing insight but no behaviour change",
+        "A team member is stuck between options and needs structure, not an answer from you",
+        "You are preparing someone for a bigger role and want judgment developed, not just tasks completed",
+        "One-to-ones keep collapsing into status reporting"
+      ],
+      "steps": [
+        "1. Contract the session: ask whether this is a coaching conversation or a decision you must make, and agree on which",
+        "2. Goal: establish what the person wants from the topic and the session, in their own words, with a measurable shape",
+        "3. Reality: explore the current situation with questions only — facts, feelings, prior attempts and what they are avoiding",
+        "4. Options: generate possibilities before evaluating them; push for more options than feels comfortable and do not supply yours first",
+        "5. Will: convert the chosen option into a specific action — who, what, when — and check commitment on a zero to ten scale",
+        "6. Set the follow-up date before the conversation ends; the loop closes at follow-up, not at insight",
+        "7. Record the commitment and the date where you track commitments, so the next session starts with reality instead of memory"
+      ],
+      "diagnosticQuestions": [
+        "Am I genuinely curious about their answer, or waiting to give my own?",
+        "Does this person need coaching right now, or a decision from me?",
+        "In my last five conversations, how many closed with a commitment and a date?",
+        "Whose options dominated the discussion — theirs or mine?"
+      ],
+      "commonMistakes": [
+        "Coaching as a delivery method for your advice: questions that have only one acceptable answer",
+        "Ending on insight or enthusiasm without a named action, owner and follow-up date",
+        "Coaching people through problems that are actually yours to decide, using the model to dodge responsibility"
+      ],
+      "outcomeIndicators": [
+        "People arrive at one-to-ones with their own options and a status on the previous commitment",
+        "Follow-up meetings open with completed commitments instead of new topics",
+        "People start coaching each other using the same structure",
+        "Decisions and problem-solving gradually move away from you without quality dropping"
+      ],
+      "relatedModels": ["situational-leadership-ii", "path-goal-theory", "authentic-leadership", "leadership-pipeline"]
+    },
+    {
+      "id": "five-dysfunctions",
+      "name": "The Five Dysfunctions of a Team",
+      "author": "Patrick Lencioni, 2002",
+      "category": "team-dynamics",
+      "corePrinciple": "Team performance is built as a pyramid: without vulnerability-based trust there is no productive conflict, without conflict no commitment, without commitment no accountability, and without accountability no results.",
+      "whenToApply": [
+        "Meetings are polite, decisions get re-litigated in hallways, and everyone nods and then does something else",
+        "A newly formed or reorganized team needs a working agreement built from the ground up",
+        "Accountability is yours alone: standards slip until you step in, every time",
+        "Individual results are strong but the collective result keeps disappointing",
+        "Conflict is either absent or toxic, with nothing healthy in between"
+      ],
+      "steps": [
+        "1. Assess the five levels honestly — trust, conflict, commitment, accountability, results — and name the single weakest one; never fix two at once",
+        "2. Build vulnerability-based trust first: share your own mistakes and uncertainties, and reward others when they do the same",
+        "3. Mine for conflict explicitly: ask for the opposing view by name, and never punish the person who gave it",
+        "4. Force clarity of commitment: end every debate with a stated decision, an owner, and what was actually decided — including for those who disagreed",
+        "5. Install peer accountability: publish the standards and let team members call each other on misses before you do",
+        "6. Anchor on collective results: make the team outcome the primary scoreboard and remove individual metrics that compete with it",
+        "7. Re-assess quarterly against the pyramid and work exactly one level up at a time"
+      ],
+      "diagnosticQuestions": [
+        "When did my team last have a real argument about the work — not about people — and what happened afterward?",
+        "Do people admit mistakes and ignorance in front of each other without cost?",
+        "After a decision is made, do people commit even when they argued against it?",
+        "Who holds peers accountable on this team when I am not in the room?"
+      ],
+      "commonMistakes": [
+        "Attacking the visible dysfunction (accountability) while the foundation (trust) is broken",
+        "Mistaking artificial harmony for a healthy team — polite agreement is not commitment",
+        "Becoming the only accountability mechanism, which trains the team to wait for you"
+      ],
+      "outcomeIndicators": [
+        "Meetings contain real disagreement and end with clear, recorded decisions",
+        "People hold each other to commitments without your intervention",
+        "Mistakes surface early and are discussed without defensiveness",
+        "Team results improve even where individual results were already strong — people sacrifice personal wins for collective results"
+      ],
+      "relatedModels": ["psychological-safety", "lmx", "transformational-leadership", "adaptive-leadership"]
+    },
+    {
+      "id": "psychological-safety",
+      "name": "Psychological Safety",
+      "author": "Amy C. Edmondson, 1999",
+      "category": "culture",
+      "corePrinciple": "Teams learn and perform when members believe they can speak up, ask questions, admit mistakes and disagree without being humiliated or punished — and that belief is built by how leaders respond to those acts.",
+      "whenToApply": [
+        "Mistakes are discovered late because people hide them until they must be reported",
+        "Meetings end with agreement and silence, and the real opinions arrive later through side channels",
+        "A safety-critical or high-consequence environment has people withholding uncertainty at the worst moments",
+        "New people take unusually long to contribute and questions dry up after the first month",
+        "You are about to run a retrospective, a blameless post-mortem or an experiment-based initiative"
+      ],
+      "steps": [
+        "1. Measure it: run a short anonymous team survey and hold the anonymity floor — below it there is no team verdict, only silence",
+        "2. Frame the work honestly: name the uncertainty and interdependence of the work so that speaking up is understood as necessary, not optional",
+        "3. Model fallibility explicitly: ask for help, say what you do not know, and acknowledge your own mistakes first",
+        "4. Respond productively to every act of candor — thank the messenger, act visibly on the input, and never punish the message in any form",
+        "5. Replace blame with curiosity in failures: ask how the system allowed the mistake before asking who made it",
+        "6. Establish structures that make voice routine: round-rows, pre-mortems, a named devil's advocate, anonymous input channels",
+        "7. Re-measure on a fixed cadence and track the trend per team — safety is maintained, not installed"
+      ],
+      "diagnosticQuestions": [
+        "What happened the last time someone criticized my idea in front of the team?",
+        "Who on my team has not spoken in the last three meetings, and why might that be?",
+        "When a mistake was reported last, did the reporter experience any negative consequence at all?",
+        "Do people here believe candor helps the work, or that it helps until it does not?"
+      ],
+      "commonMistakes": [
+        "Declaring a blameless culture while reacting visibly to bad news — the reaction teaches faster than the policy",
+        "Confusing psychological safety with comfort or lowered standards: safety is about candor under high standards",
+        "Measuring once and moving on, when the belief decays with every poorly handled incident"
+      ],
+      "outcomeIndicators": [
+        "Problems and near-misses are reported earlier, including by junior and new people",
+        "Meetings contain disagreement from multiple voices, including quiet members",
+        "Questions increase rather than decrease as tenure grows",
+        "Post-mortems identify system causes without a single defensive speech"
+      ],
+      "relatedModels": ["five-dysfunctions", "servant-leadership", "adaptive-leadership", "lmx"]
+    },
+    {
+      "id": "leadership-pipeline",
+      "name": "The Leadership Pipeline",
+      "author": "Ram Charan, Stephen Drotter & James Noel, 2001",
+      "category": "strategy",
+      "corePrinciple": "Leadership capacity is built by managing the passages from individual contributor to manager of managers — each passage changes the values, time application and skills the role demands, and failure comes from clinging to the previous passage's work.",
+      "whenToApply": [
+        "A newly promoted manager keeps doing their old job and managing neither",
+        "Succession planning reveals gaps at a specific layer, and promotions keep failing in the same passage",
+        "The organization is scaling and the leadership layers no longer match the spans of control",
+        "High-performing individual contributors are promoted and then plateau or leave",
+        "You are redesigning role expectations, leadership development or promotion criteria"
+      ],
+      "steps": [
+        "1. Map the passages actually present in your organization — from managing self through managing managers to managing the enterprise — and write the values shift each demands",
+        "2. Diagnose every leader by passage: which passage's work do they still value and do themselves?",
+        "3. Define the time application, skills and work values for each layer in plain behavioural terms",
+        "4. Build selection and promotion criteria from those terms instead of from performance in the current role alone",
+        "5. Design transition support per passage: training, coaching, and a first assignment that forces the new values",
+        "6. Coach the specific passage failure — the manager doing the team lead's work, the director doing the manager's work — instead of generic leadership",
+        "7. Review the pipeline annually: bench strength per layer, promotion success rate, and where the passages leak"
+      ],
+      "diagnosticQuestions": [
+        "For each of my direct reports in leadership roles, which passage's values are they still rewarded for practising?",
+        "Where does our promotion system select for the wrong passage — great individual contributors made into mediocre managers?",
+        "What work am I doing today that belongs to a layer below me?",
+        "If two key roles opened tomorrow, who is ready at each passage, and how do I know?"
+      ],
+      "commonMistakes": [
+        "Promoting for past performance and assuming the values shift will happen on its own",
+        "Training generically with leadership skills instead of coaching the specific passage transition",
+        "Judging leaders at a new layer by their old layer's visible output, which punishes the right behaviour"
+      ],
+      "outcomeIndicators": [
+        "Newly promoted leaders stop doing their previous role's work within a defined period",
+        "Promotion success rates improve: fewer plateaus and fewer returns to previous roles",
+        "Leaders describe their role's values shift in their own words and delegate accordingly",
+        "Bench strength per layer is named, current and rarely a surprise"
+      ],
+      "relatedModels": ["situational-leadership-ii", "first-90-days", "grow-coaching", "lmx"]
+    },
+    {
+      "id": "first-90-days",
+      "name": "The First 90 Days",
+      "author": "Michael D. Watkins, 2003",
+      "category": "strategy",
+      "corePrinciple": "Success in a new role is determined in the first months: accelerate by learning before acting, securing early wins, negotiating success with your boss and building the right alliances before the transition goodwill ends.",
+      "whenToApply": [
+        "You or a team member has just been promoted, hired or given a significantly expanded scope",
+        "A leader is taking over a turnaround, realignment or start-up situation with different demands",
+        "An internal move changed the stakeholder map but not the person's instincts",
+        "A new leader is drifting into action without a learning plan and early friction is appearing",
+        "You are designing onboarding for leadership roles rather than technical onboarding alone"
+      ],
+      "steps": [
+        "1. Promote yourself: break sharply with the old role and name what you did there that you must stop doing now",
+        "2. Match strategy to situation: determine whether this is a start-up, turnaround, realignment or sustaining-success context, and fit your approach to it",
+        "3. Learn before acting: build a structured learning agenda for the technical, cultural and political dimensions, using documents, data and stakeholder interviews",
+        "4. Negotiate success: align with your boss on the situation, priorities, style, resources and how progress will be judged — in writing",
+        "5. Secure early wins that matter to the stakeholders whose support you need, and that build credibility without overreach",
+        "6. Map the political landscape: alliances, influence networks and potential blockers, and invest in the right coalition first",
+        "7. Build your team fast: assess who fits the situation and make necessary changes early rather than after they entrench",
+        "8. Keep your balance: manage your learning pace, energy and advice network so the transition does not consume you"
+      ],
+      "diagnosticQuestions": [
+        "What situation am I actually in — start-up, turnaround, realignment or sustaining success — and does my plan match it?",
+        "What did I do in my last role that would damage me here if I kept doing it?",
+        "Have I agreed with my boss how success will be judged at day 90, in specific terms?",
+        "Which three relationships will determine whether I can deliver at all, and what is my plan for them?"
+      ],
+      "commonMistakes": [
+        "Acting fast to prove yourself before understanding the situation, and spending the transition's goodwill on the wrong moves",
+        "Neglecting the boss relationship and discovering the real priorities in month four",
+        "Keeping the old role's identity and over-investing in the work you were good at instead of the work the new role demands"
+      ],
+      "outcomeIndicators": [
+        "A written 90-day plan exists with learning goals, early wins and stakeholder priorities, and it is visibly being worked",
+        "Your boss and you can state the same definition of success at day 90",
+        "Early wins land within the first months and stakeholders credit them as the right ones",
+        "The team stabilizes quickly: clear direction, early decisions on fit, and no prolonged waiting-period atmosphere"
+      ],
+      "relatedModels": ["leadership-pipeline", "adaptive-leadership", "vuca-leadership", "lmx"]
+    },
+    {
+      "id": "authentic-leadership",
+      "name": "Authentic Leadership",
+      "author": "William W. George, 2003",
+      "category": "individual-development",
+      "corePrinciple": "Sustainable leadership grows from self-awareness, internalized values and transparent relationships: know yourself, act on your values, and lead openly so people trust both the message and the messenger.",
+      "whenToApply": [
+        "You face decisions that test your stated values against cost or pressure",
+        "Trust has been damaged and people are questioning motives, not just competence",
+        "You are defining your leadership identity after a promotion or a crisis",
+        "The organization needs consistency across many leaders and a values anchor is missing",
+        "You feel your leadership persona drifting from who you actually are"
+      ],
+      "steps": [
+        "1. Build self-awareness systematically: reflection routines, honest feedback instruments, and a personal advisory board that tells you the truth",
+        "2. Write down your leadership purpose and non-negotiable values — specific enough to cost you something when tested",
+        "3. Align decisions with those values in the open: explain the value behind the call, especially when the call is unpopular",
+        "4. Practise balanced transparency: share your reasoning and relevant personal context without dumping unfiltered emotion on the team",
+        "5. Relate genuinely: listen without performing, admit uncertainty, and follow through on small promises as carefully as on big ones",
+        "6. Test yourself under pressure — values are only real in the week they are expensive",
+        "7. Review regularly with a coach or peer: where did I act as the role instead of as myself, and what did it cost?"
+      ],
+      "diagnosticQuestions": [
+        "What would I do here if no one could attribute the decision to me?",
+        "Which of my stated values have I actually paid a price to uphold this year?",
+        "Do people experience me the same in one-to-ones, in public forums and under pressure?",
+        "Whose feedback do I genuinely trust about how I come across, and when did I last ask for it?"
+      ],
+      "commonMistakes": [
+        "Treating authenticity as unfiltered self-expression — sharing every impulse and calling it honesty",
+        "Freezing at this is who I am instead of developing: authenticity is not a defence against feedback",
+        "Confusing consistency with rigidity, and defending old positions because changing would look inauthentic"
+      ],
+      "outcomeIndicators": [
+        "People can accurately describe your values and predict your decisions on principle without cynicism",
+        "Bad news and dissent reach you early and from many levels",
+        "Your decisions under pressure look like your decisions in calm times",
+        "Trust indicators hold through hard trade-offs, not only in good periods"
+      ],
+      "relatedModels": ["servant-leadership", "transformational-leadership", "psychological-safety", "grow-coaching"]
+    },
+    {
+      "id": "vuca-leadership",
+      "name": "VUCA Leadership",
+      "author": "Warren Bennis & Bert Nanus, 1985 (U.S. Army War College usage, 1987)",
+      "category": "strategy",
+      "corePrinciple": "In conditions of volatility, uncertainty, complexity and ambiguity, leadership means sensing reality faster than it changes: pair vision to counter volatility, understanding to counter uncertainty, clarity to counter complexity and agility to counter ambiguity.",
+      "whenToApply": [
+        "Planning horizons keep collapsing and forecasts are wrong in both directions",
+        "The team demands certainty and a fixed plan while the environment offers neither",
+        "Multiple interacting changes — technology, market, regulation — are compounding and no single expert holds the full picture",
+        "A crisis has ended but the old playbook no longer fits and confidence in it is gone",
+        "You are setting strategy for a unit facing unfamiliar competitors, technologies or rules"
+      ],
+      "steps": [
+        "1. Diagnose the component: name whether the dominant threat is volatility, uncertainty, complexity or ambiguity — each demands a different counter-move",
+        "2. Counter volatility with vision: hold a stable direction and values while tactics flex — people need the fixed point more than the perfect plan",
+        "3. Counter uncertainty with understanding: invest in sensing — diverse information sources, direct customer and frontline contact, deliberate scanning",
+        "4. Counter complexity with clarity: simplify the message, the structure and the decision rights until people know what to do without translation",
+        "5. Counter ambiguity with agility: run small experiments, make reversible decisions fast, and state explicitly what would make you reverse",
+        "6. Shorten the feedback loop: hold cadences that compare reality to assumption monthly and adjust visibly",
+        "7. Rehearse before crisis: scenario exercises and pre-mortems build the reflexes that pressure otherwise destroys"
+      ],
+      "diagnosticQuestions": [
+        "Am I trying to plan my way out of a problem that is actually about sensing or speed?",
+        "What is my team really asking for when they demand certainty — direction, permission, or protection from blame?",
+        "Which VUCA component dominates right now, and does my response actually counter it?",
+        "How quickly would we notice if our core assumption about the market were wrong?"
+      ],
+      "commonMistakes": [
+        "Responding to ambiguity with more analysis and longer plans, which buys delay at the cost of speed",
+        "Flexing on everything, including values and direction, which leaves people with no anchor",
+        "Treating VUCA as a slogan for chaos instead of four distinct problems with four distinct answers"
+      ],
+      "outcomeIndicators": [
+        "Decisions get made faster at the right level, with explicit reversal conditions",
+        "People stay oriented under pressure: they can state the direction even when tactics change weekly",
+        "Sensing works — weak signals reach decision-makers before they become crises",
+        "Experiments run continuously and learning is captured in what the team does next"
+      ],
+      "relatedModels": ["adaptive-leadership", "first-90-days", "transformational-leadership", "authentic-leadership"]
+    },
+    {
+      "id": "transactional-leadership",
+      "name": "Transactional Leadership",
+      "author": "James MacGregor Burns, 1978; Bernard M. Bass, 1985",
+      "category": "team-dynamics",
+      "corePrinciple": "Performance is reliably produced by clear agreements: define the expected result, the reward and the consequence, monitor against the standard, and intervene only where the standard is missed.",
+      "whenToApply": [
+        "Routine, well-understood work where consistency and error-free execution matter more than innovation",
+        "Standards and quality discipline have slipped and everyone is improvising their own version of the process",
+        "A team is in delivery crunch on a defined scope with a hard deadline",
+        "Expectations are fuzzy and people are surprised by performance feedback they never saw coming",
+        "A stable operation needs a reliable baseline before transformational or adaptive work can be attempted"
+      ],
+      "steps": [
+        "1. Define the contingent agreement: specific expected results, by when, measured how — and what follows when they are met",
+        "2. Confirm understanding back: have people restate the standard and the consequence logic in their own words",
+        "3. Monitor by exception: track against the standard and intervene where variance appears, leaving on-standard work alone",
+        "4. Apply active management-by-exception for safety, quality and compliance: watch for deviation and act before it becomes failure",
+        "5. Deliver the contingent reward or consequence every single time — the system's credibility is the follow-through",
+        "6. Keep the ledger of commitments visible: who promised what by when, reviewed at a fixed cadence",
+        "7. Know the ceiling: where the work requires learning, creativity or change, hand over to transformational or adaptive approaches"
+      ],
+      "diagnosticQuestions": [
+        "Is the work here genuinely standard, or am I treating it as standard because I have stopped looking?",
+        "Does everyone know exactly what good looks like and what follows from it?",
+        "Do my people experience my consequences and rewards as predictable, or as moods?",
+        "Where am I monitoring everything instead of by exception, and what is that costing in autonomy?"
+      ],
+      "commonMistakes": [
+        "Extending contingent management into work that requires learning or judgment, which kills initiative and innovation",
+        "Announcing consequences but not applying them, which teaches that the standard is optional",
+        "Monitoring everything continuously instead of by exception, which reads as surveillance and breeds gaming of the metric"
+      ],
+      "outcomeIndicators": [
+        "Deliverables land at the agreed standard with no re-litigation of what was promised",
+        "Variances surface early and trigger intervention automatically instead of after the deadline",
+        "People can state the standard, the measure and the consequence without checking a document",
+        "Surprises in performance conversations drop to near zero because feedback was continuous"
+      ],
+      "relatedModels": ["transformational-leadership", "path-goal-theory", "five-dysfunctions", "goleman-six-styles"]
+    },
+    {
+      "id": "adkar-change-model",
+      "name": "ADKAR Change Model",
+      "author": "Jeff Hiatt / Prosci · 2003",
+      "category": "change",
+      "corePrinciple": "Lasting change only occurs when individuals move through five sequential states: Awareness, Desire, Knowledge, Ability, and Reinforcement — skipping any state causes the change to fail or revert.",
+      "whenToApply": [
+        "Implementing a new production process or SOP in a regulated environment",
+        "Rolling out a new planning system (e.g. SIOP) to an established operations team",
+        "Introducing Lean or 5S where team has resistance or prior failed attempts",
+        "When a change was implemented but behavior reverted to old patterns within weeks",
+        "Managing compliance-driven changes where team understands what but not why"
+      ],
+      "steps": [
+        "Awareness: Communicate clearly WHY the change is necessary — the business, ethical, or operational reason. Not what is changing but why staying the same is no longer acceptable.",
+        "Desire: Address what's in it for the individual. Involve team members in shaping the solution. Remove fear and resistance through direct conversation, not announcements.",
+        "Knowledge: Train specifically on the new process, SOP, or behavior. Use the people who know the process best to co-develop the training.",
+        "Ability: Give time and practice. Supervisor coaching during the transition period. Identify individuals who need additional support — do not assume training equals ability.",
+        "Reinforcement: Measure the new behavior with data. Celebrate examples of the new standard. Catch regression early and address it directly as a coaching conversation, not a performance issue.",
+        "After full cycle: document what worked and what caused friction. Update the change approach for the next initiative.",
+        "Name the sponsor: a visible owner who answers for the change at the top — a change without a named sponsor is a suggestion, not a change."
+      ],
+      "diagnosticQuestions": [
+        "Do my team members know WHY this change is happening — not just what is changing?",
+        "Is there anyone on the team who understands the what but is actively choosing not to change?",
+        "Have I given enough practice time before measuring compliance?",
+        "What am I doing 90 days after implementation to confirm the new behavior held?"
+      ],
+      "commonMistakes": [
+        "Jumping to Knowledge (training) before building Awareness and Desire — people attend the training but do not change",
+        "Stopping at Ability and assuming the change is done — without Reinforcement, reversion to old behavior within 2-3 months is the norm in production environments",
+        "Using Reinforcement as punishment for non-compliance rather than positive confirmation of the new standard"
+      ],
+      "outcomeIndicators": [
+        "Team members explain the reason for the change in their own words without prompting",
+        "New SOP or process is followed consistently 90 days after rollout without supervisor reminders",
+        "Team members self-correct colleagues who revert to old behavior",
+        "The change survives its first busy period — a workload spike does not silently reinstate the old method"
+      ],
+      "relatedModels": ["pdca-cycle", "lean-manufacturing", "psychological-safety", "situational-leadership-ii"]
+    },
+    {
+      "id": "pdca-cycle",
+      "name": "PDCA Cycle",
+      "author": "W. Edwards Deming · 1950s",
+      "category": "change",
+      "corePrinciple": "Improvement is a cycle, not an event: Plan what you will change and how you will measure it, Do it at small scale, Check whether the data confirms the expected result, Act to standardize or adjust — then restart.",
+      "whenToApply": [
+        "Implementing a Lean or process improvement initiative in an operational environment",
+        "Addressing a recurring quality deviation or customer complaint",
+        "Testing a new SOP or working method before full rollout",
+        "When a previous improvement initiative did not hold after implementation",
+        "Running structured Kaizen events with a team"
+      ],
+      "steps": [
+        "Plan: Define the specific problem with data. Set a measurable baseline. State the hypothesis: if we do X, we expect Y to change by Z. Identify who owns each action.",
+        "Do: Implement the change at small scale. Document what actually happened versus what was planned. Do not skip documentation — it is the input to Check.",
+        "Check: Compare actual results against the baseline and the hypothesis. Be honest if the result is neutral or negative — that is valid data, not failure.",
+        "Act: If results confirm the hypothesis, standardize the change: update SOPs, train the team, add to visual management boards. If not, return to Plan with what you learned.",
+        "Restart: Set the next improvement target. PDCA does not have an end state — it restarts on the next problem.",
+        "Scale deliberately: when a small-scale test confirms the result, roll out in steps and re-measure at each step — a pilot that works on one line can still fail on the next.",
+        "Record the learning either way: a hypothesis that did not hold is data — write down what it taught you before the next Plan starts."
+      ],
+      "diagnosticQuestions": [
+        "Do I have a documented baseline to compare against after the change?",
+        "Am I testing at small scale before committing the full operation?",
+        "Is the improvement written into the SOP and trained, or only in people's heads?",
+        "What is the specific date I will check whether this improvement held?"
+      ],
+      "commonMistakes": [
+        "Treating PDCA as a project with a finish line — the cycle must restart or improvements degrade within months",
+        "Skipping the Check step when the result feels obviously positive — without data comparison you cannot confirm or replicate the improvement",
+        "Implementing at full scale before Do is complete — makes it impossible to isolate what caused the result"
+      ],
+      "outcomeIndicators": [
+        "Improvements are documented in updated SOPs, not just in team memory",
+        "The team can name the baseline and the measured result of recent improvements",
+        "Recurring problems decrease in frequency over rolling 90-day periods",
+        "Improvements that did not work are reverted and recorded as learning instead of quietly surviving in the standard"
+      ],
+      "relatedModels": ["kaizen-gemba", "lean-manufacturing", "adkar-change-model", "root-cause-analysis"]
+    },
+    {
+      "id": "kaizen-gemba",
+      "name": "Kaizen & Gemba Walks",
+      "author": "Masaaki Imai · Toyota Production System",
+      "category": "change",
+      "corePrinciple": "The best improvements come from the people closest to the process, observed at the place where the work actually happens — not from a meeting room. Go there. Look. Ask. Improve together.",
+      "whenToApply": [
+        "Identifying waste, inefficiency, or variation in an operational production environment",
+        "When team members have been saying 'this doesn't work' but no one has formally investigated",
+        "Before redesigning a process or updating a SOP — observe the current state first",
+        "When a leader has become office-bound and disconnected from daily production reality",
+        "Conducting structured improvement events with production team leads"
+      ],
+      "steps": [
+        "Go to the Gemba: walk to the place where the work happens. Do not rely on reports or second-hand descriptions — see it yourself.",
+        "Observe without intervening: watch the process run as it normally does. Note what you see, not what the SOP says should happen.",
+        "Ask questions, do not give answers: 'Why is this step done this way?' 'What makes this difficult?' 'What would make this easier?' The people doing the work have the answers.",
+        "Document what you find: waste (unnecessary movement, waiting, rework), variation from standard, safety or quality risk points.",
+        "Involve the team in the solution: present your observations and co-design the improvement with the people who do the work. They will own it more deeply.",
+        "Follow up: return to the Gemba after the change. Confirm the improvement held.",
+        "Thank and credit the team member whose idea it was — recognition is what keeps the next idea coming."
+      ],
+      "diagnosticQuestions": [
+        "When did I last stand on the production floor and observe the process without an agenda?",
+        "Am I finding my improvement ideas in meetings or at the process?",
+        "Do my team members believe I understand what their daily work actually involves?",
+        "Which of my last five improvement ideas came from the people doing the work rather than from a meeting room?"
+      ],
+      "commonMistakes": [
+        "Turning Gemba into inspection — team members change behavior when they feel watched rather than supported",
+        "Finding the problem during the walk but designing the solution in the office without the team's input",
+        "Going to the Gemba without follow-up — builds cynicism that observation never leads to change"
+      ],
+      "outcomeIndicators": [
+        "Team members proactively bring improvement ideas forward without being prompted",
+        "SOPs reflect what actually happens in production, not what was written 3 years ago",
+        "Leader can describe the current state of any production area in specific operational detail",
+        "Gemba walks happen on a set cadence — not only after something goes wrong"
+      ],
+      "relatedModels": ["pdca-cycle", "lean-manufacturing", "psychological-safety", "servant-leadership"]
+    },
+    {
+      "id": "root-cause-analysis",
+      "name": "Root Cause Analysis (5-Why / Ishikawa)",
+      "author": "Taiichi Ohno / Kaoru Ishikawa · Toyota",
+      "category": "change",
+      "corePrinciple": "Every recurring problem has a system cause behind the surface symptom. Find the actual cause before implementing a fix — otherwise you correct the symptom and the problem returns.",
+      "whenToApply": [
+        "Investigating a customer complaint or quality deviation in production",
+        "When the same problem has occurred more than once despite a previous corrective action",
+        "After a production incident, health breach, or audit finding",
+        "When a team is spending time on the same firefighting issues repeatedly",
+        "Before writing a corrective action plan — the action must address the root cause, not the symptom"
+      ],
+      "steps": [
+        "Define the problem specifically: what happened, when, in which process, with what measured impact. Vague problem statements produce vague root causes.",
+        "Use 5-Why: ask 'Why did this happen?' Write the answer. Ask 'Why did that happen?' Repeat 5 times or until you reach a system, process, or behavioral root that a corrective action can address.",
+        "Use Ishikawa (fishbone) for complex problems: map potential causes across 6 categories: Man, Machine, Method, Material, Measurement, Environment. Then investigate each branch with evidence.",
+        "Select the root cause with evidence: do not stop at the first plausible cause. Confirm with data that this cause actually explains the problem.",
+        "Design a corrective action that addresses the root cause: update the SOP, change the process, add a check, train the team. Not just 'remind staff to be more careful.'",
+        "Implement, document, and measure: set a date to verify the corrective action worked. Close the loop with data.",
+        "Verify with a later check, not a completed task: a corrective action is closed when the data shows the problem stopped recurring — not when the task was marked done."
+      ],
+      "diagnosticQuestions": [
+        "Am I solving the symptom or the cause?",
+        "Have I asked 'why' at least 5 times before writing a corrective action?",
+        "Could this problem recur even if the corrective action is implemented?",
+        "Is the corrective action something a person does once, or something that changes the system?"
+      ],
+      "commonMistakes": [
+        "Stopping at the first 'why' answer and treating it as the root cause — this almost always finds the person, not the system",
+        "Writing corrective actions that say 'staff will be retrained' without changing the process that allowed the error — training alone does not prevent recurrence",
+        "Closing the deviation without verifying the corrective action actually worked"
+      ],
+      "outcomeIndicators": [
+        "The same problem does not recur within 6 months of implementing a corrective action",
+        "Corrective actions reference specific process changes, not just awareness or reminders",
+        "Team members apply 5-Why thinking independently when problems arise",
+        "Corrective actions carry a verification date and are verified on it — closures without evidence are treated as still open"
+      ],
+      "relatedModels": [        "pdca-cycle",
+        "lean-manufacturing",
+        "psychological-safety",
+        "just-culture-model"
+      ]
+    },
+    {
+      "id": "siop-planning",
+      "name": "SIOP — Sales, Inventory & Operations Planning",
+      "author": "Oliver Wight International · adapted by Taconic Biosciences",
+      "category": "strategy",
+      "corePrinciple": "Match production output to actual demand through a structured monthly cycle — eliminating both under-supply and overproduction by aligning sales forecasts, inventory data, and production capacity in a single integrated process.",
+      "whenToApply": [
+        "Monthly production planning and capacity alignment in a demand-driven production environment",
+        "When production is consistently over- or under-producing relative to actual customer orders",
+        "Coordinating between sales forecasts and production capacity decisions",
+        "Preparing for executive-level production review meetings",
+        "Reducing waste and overproduction in line with ethical or regulatory reduction targets"
+      ],
+      "steps": [
+        "Data Gathering: collect current production output data — utilization rates, output per unit, delivery times, unused output rate. Data must be clean and current before any planning begins.",
+        "Demand Planning: gather sales forecasts per product type, specification, and delivery window over a rolling planning horizon. Coordinate directly with sales and supply chain for accuracy.",
+        "Supply Planning: map production capacity against demand forecast — required breeding pairs, cage capacity, staffing, and delivery lead times. Identify gaps before they become emergencies.",
+        "Reconciliation: perform gap analysis between demand and supply. Prioritize and decide on capacity adjustments — add, reduce, or shift production. Document the decision rationale.",
+        "Executive Alignment: present production status, risks, and capacity decisions to site leadership in a monthly review. Own the supply-side numbers and be prepared to defend them with data.",
+        "Track the plan against reality: compare forecast to actual demand every cycle and write down why the variance happened — the forecast that is never challenged never improves.",
+        "Decide the trade-offs explicitly: when demand exceeds capacity, name what will not be delivered and who decides — an unspoken priority is a promise nobody made."
+      ],
+      "diagnosticQuestions": [
+        "Is my production data clean enough to base a capacity decision on?",
+        "Am I producing to forecast or to actual confirmed demand?",
+        "What is my current unused output rate and what is its trend over 3 months?",
+        "Are sales, supply chain, and production working from the same numbers?"
+      ],
+      "commonMistakes": [
+        "Starting Supply Planning before Demand Planning is complete — capacity decisions made against outdated or incomplete forecasts",
+        "Treating SIOP as an administrative meeting rather than the primary operational decision-making process",
+        "Not closing the loop: skipping measurement of OTIF and unused output rate after planning decisions are made"
+      ],
+      "outcomeIndicators": [
+        "On-Time In-Full (OTIF) rate improves and holds above 90% over rolling quarters",
+        "Unused or overproduced output rate decreases measurably within 3 monthly cycles",
+        "Production team and sales team are working from identical demand numbers",
+        "Forecast variance narrows cycle over cycle because the misses are analyzed instead of explained away"
+      ],
+      "relatedModels": [        "lean-manufacturing",
+        "pdca-cycle",
+        "path-goal-theory",
+        "stakeholder-rasci"
+      ]
+    },
+    {
+      "id": "lean-manufacturing",
+      "name": "Lean Manufacturing & 5S",
+      "author": "Toyota Production System / Womack & Jones · 1990s",
+      "category": "change",
+      "corePrinciple": "Eliminate waste in every form — unnecessary motion, waiting, overproduction, defects, over-processing — while standardizing what works. 5S (Sort, Set in order, Shine, Standardize, Sustain) is the foundation that makes all other Lean work possible.",
+      "whenToApply": [
+        "When production processes have unnecessary steps, movement, or waiting that don't add value",
+        "When the same quality defects, deviations, or errors recur in production",
+        "When introducing standardized work instructions (SOPs) as a living operational discipline",
+        "When production capacity is available but output is below target — waste is the cause",
+        "Establishing a baseline operational standard before adding complexity or growth"
+      ],
+      "steps": [
+        "Map the current state: document the process as it actually runs, not as the SOP describes. Identify every step and classify it as value-adding, necessary non-value-adding, or pure waste.",
+        "Apply 5S to the work environment: Sort (remove what is not needed), Set in order (place everything where it belongs and label it), Shine (clean to the standard the process requires), Standardize (make the standard visible and documented), Sustain (audit and maintain).",
+        "Standardize the value-adding steps: write or update SOPs that reflect the improved current state. Involve the team members who do the work — they know the details no manager does.",
+        "Make performance visible: install visual management at the process level. Production boards showing daily output, KPIs, and health status make problems visible before they become crises.",
+        "Run structured improvements: use Gemba Walks to find the next target. Apply PDCA to test and confirm. Do not implement improvements across the full operation until the small-scale test confirms the result.",
+        "Sustain: 5S audits on a regular schedule. SOPs reviewed and updated when the process changes. The standard is only as good as the last audit.",
+        "Attack the biggest waste first: rank the wastes by time or cost consumed and work the top of the list — improvement spread thin across everything moves nothing."
+      ],
+      "diagnosticQuestions": [
+        "If I walk the production floor now, will I find things out of place that the team has accepted as normal?",
+        "Are my SOPs written by the people who use them, or by people who designed the process years ago?",
+        "Can a new team member follow the current SOP and produce to the required standard without additional coaching?",
+        "What is the current waste category consuming the most time in my team's daily work?"
+      ],
+      "commonMistakes": [
+        "Running 5S as a one-time cleaning event rather than as a permanent standard with audit discipline",
+        "Writing SOPs without involving the operators — produces documents that are technically correct but operationally ignored",
+        "Implementing too many improvements simultaneously — the organization cannot absorb change faster than it can sustain it"
+      ],
+      "outcomeIndicators": [
+        "Production areas maintain 5S standard between scheduled audits without manager intervention",
+        "SOPs are revised by team members when they identify a better method, not only when management requests it",
+        "Time spent on rework, searching for materials, or waiting decreases measurably within 60 days",
+        "Improvement suggestions come from the team at a steady rate, not in bursts after an audit"
+      ],
+      "relatedModels": ["pdca-cycle", "kaizen-gemba", "adkar-change-model", "psychological-safety"]
+    },
+    {
+      "id": "just-culture-model",
+      "name": "Just Culture",
+      "author": "James Reason / Sidney Dekker · 2000s",
+      "category": "culture",
+      "corePrinciple": "Safety and quality require open reporting of errors and near-misses. A Just Culture holds individuals accountable for reckless behavior while treating honest mistakes and system failures as learning opportunities — not punishable events.",
+      "whenToApply": [
+        "After an incident, error, or near-miss occurs in a regulated production environment",
+        "When team members are withholding error reports out of fear of consequences",
+        "Building psychological safety in a team where quality and compliance are non-negotiable",
+        "During audit preparation — auditors look for open reporting culture as a sign of operational maturity",
+        "When the same error keeps occurring despite corrective actions — hidden errors are the sign"
+      ],
+      "steps": [
+        "Distinguish between human error, at-risk behavior, and reckless behavior: human error is unintentional and requires system improvement; at-risk behavior is a coaching conversation; reckless behavior is the only category that warrants disciplinary action.",
+        "Respond to reported errors with investigation, not blame: when an error is reported, the first question is 'what in the system allowed this to happen?' not 'who made this mistake?'",
+        "Make reporting psychologically safe: communicate explicitly that reporting an error will not result in punishment. Back this with consistent behavior — every reported error handled with investigation, not blame.",
+        "Close the loop visibly: when an error report leads to a process improvement, tell the team. This is the evidence that reporting is worth doing.",
+        "Track near-misses as seriously as actual events: a near-miss is a free learning opportunity. Treat it as a gift.",
+        "Coach at-risk behavior with curiosity: ask what made the risky choice reasonable at the time — the answer is usually a system incentive, and the incentive is what changes.",
+        "Apply the same standard at every level: a rule that binds operators but not supervisors is not a safety culture, it is a hierarchy."
+      ],
+      "diagnosticQuestions": [
+        "Do my team members report errors and near-misses, or do they fix and forget?",
+        "When was the last time a reported error led to a visible process improvement?",
+        "Am I consistent — do I respond the same way to an error reported by a high performer as by a low performer?",
+        "Does my team believe they will be protected if they report a mistake honestly?"
+      ],
+      "commonMistakes": [
+        "Saying the culture is 'Just' while punishing the first person who reports an honest error — one inconsistency destroys months of culture-building",
+        "Treating all errors as equal regardless of intent — removes the accountability that prevents reckless behavior",
+        "Closing deviation reports without visible follow-up — team stops reporting because nothing ever changes"
+      ],
+      "outcomeIndicators": [
+        "Near-miss and error reporting rate increases over time (more reports = safer culture, not more errors)",
+        "Team members report errors from colleagues, not just their own",
+        "Audit findings do not include previously unreported issues the team knew about",
+        "Disciplinary actions for honest human error stay at zero while accountability for reckless behavior stays clear and visible"
+      ],
+      "relatedModels": [        "psychological-safety",
+        "root-cause-analysis",
+        "servant-leadership",
+        "adkar-change-model"
+      ]
+    },
+    {
+      "id": "stakeholder-rasci",
+      "name": "Stakeholder Management & RASCI",
+      "author": "PMI / General management practice",
+      "category": "strategy",
+      "corePrinciple": "Clear role assignment prevents the two most common coordination failures: everyone thinks someone else owns it, or everyone tries to own it simultaneously. RASCI (Responsible, Accountable, Supportive, Consulted, Informed) makes ownership explicit.",
+      "whenToApply": [
+        "Coordinating production decisions across multiple functions (sales, supply chain, quality, warehouse)",
+        "Launching an improvement initiative that requires input from teams outside your direct authority",
+        "When a recurring problem involves multiple departments and no one is clearly accountable",
+        "Managing external suppliers or laboratory partners against defined quality or delivery standards",
+        "Preparing for a management or executive review where multiple stakeholders present"
+      ],
+      "steps": [
+        "Map the stakeholders: who is affected by this decision or process? Who has input authority? Who needs to be informed but not involved in decisions?",
+        "Assign RASCI roles for each key process or decision: Responsible (does the work), Accountable (owns the outcome — only one per task), Supportive (contributes resources), Consulted (input required before decision), Informed (notified of outcome).",
+        "Communicate the RASCI explicitly: do not assume people know their role. Walk through it with each stakeholder.",
+        "Identify and address gaps: where is accountability unclear? Where are there too many Accountables (= no accountability)?",
+        "Review and update after each major project or planning cycle — RASCI becomes stale as organizations change.",
+        "Make the Supportive role explicit: the resources a Responsible person needs are promised by name, not assumed from goodwill.",
+        "Publish it where the work happens: a RASCI in a slide deck nobody opens decides nothing — put it where the question gets asked."
+      ],
+      "diagnosticQuestions": [
+        "For each major decision in my area, can I name one person who is Accountable?",
+        "Are there recurring coordination failures between my team and another function?",
+        "Do my stakeholders know what I need from them and by when?",
+        "Where do I personally sit in the RASCI of my area's three most expensive decisions — and does my calendar match that role?"
+      ],
+      "commonMistakes": [
+        "Assigning multiple people as Accountable for the same task — shared accountability is no accountability",
+        "Confusing Responsible and Accountable — the person doing the work is not always the one who owns the outcome",
+        "Building RASCI in a meeting room and never communicating it to the people named in it"
+      ],
+      "outcomeIndicators": [
+        "Cross-functional coordination failures decrease — fewer 'I thought you were handling that' situations",
+        "Escalations arrive at the right person on the first attempt",
+        "External suppliers and partners deliver to specification because expectations were written down, not assumed",
+        "Fewer parallel efforts collide because ownership was named before the work started"
+      ],
+      "relatedModels": [        "siop-planning",
+        "path-goal-theory",
+        "transformational-leadership",
+        "five-dysfunctions"
+      ]
+    },
+    {
+      "id": "stage-gate-governance",
+      "name": "Stage-Gate Governance",
+      "author": "Robert G. Cooper (1986)",
+      "category": "strategy",
+      "corePrinciple": "Work dies by a thousand small continuations: separating delivery into phases with explicit go/kill gates — judged on criteria agreed before the phase begins — turns continuation into a decision instead of a drift.",
+      "whenToApply": [
+        "A portfolio of projects keeps absorbing resources while none of them is ever stopped",
+        "A visibly failing project is continued month after month because stopping it would be politically expensive",
+        "Gate reviews exist but pass everything, so nobody treats them as real decisions",
+        "Teams are surprised by a 'suddenly' cancelled project that was visibly failing for months",
+        "Handover between order, engineering, delivery and acceptance keeps losing scope, time and margin"
+      ],
+      "steps": [
+        "Define the phase structure from idea to final acceptance, with the deliverables each phase must produce",
+        "Write the port criteria for every gate while they can still hurt — before the phase they judge begins",
+        "Name the decision body and its mandate: who can kill the work, who can only advise",
+        "Run each gate as a decision meeting — go, kill, hold or recycle — with the reasons recorded",
+        "Separate the recovery path: a recycled effort re-enters with explicit conditions, not with goodwill",
+        "Feed gate outcomes back into the criteria; a gate whose criteria never change never learns",
+        "Report the portfolio by exception: the gates produce the status, the status produces the attention"
+      ],
+      "diagnosticQuestions": [
+        "When did this portfolio last stop something at a gate?",
+        "Were this gate's criteria written before or after the phase it judged?",
+        "Who actually holds the kill decision — and have they ever used it?",
+        "What must a project show to pass, in numbers rather than adjectives?"
+      ],
+      "commonMistakes": [
+        "Rubber-stamp gates where criteria are invented after the fact to justify a continuation already decided",
+        "Treating the gate pack as a documentation audit instead of a decision about risk, value and resources",
+        "Running one gate format for all sizes, so small work drowns in process while large work escapes scrutiny"
+      ],
+      "outcomeIndicators": [
+        "Work stops at gates for stated reasons instead of fading out quietly",
+        "Time from first warning to decision shrinks because the gate already exists",
+        "Surviving efforts reach handover with fewer late scope surprises",
+        "Revenue, margin and cash movement become explainable phase by phase"
+      ],
+      "relatedModels": [
+        "earned-value-management",
+        "balanced-scorecard",
+        "pdca-cycle",
+        "siop-planning"
+      ]
+    },
+    {
+      "id": "earned-value-management",
+      "name": "Earned Value Management",
+      "author": "Fleming & Koppelman; ANSI/EIA-748 practice",
+      "category": "strategy",
+      "corePrinciple": "Cost and schedule are one story told in two currencies: comparing planned value, earned value and actual cost separates a project that is late from one that is expensive — and a forecast built from work performed beats a forecast built from hope.",
+      "whenToApply": [
+        "A project reports 'on budget' while its deliverables are visibly behind",
+        "Schedule variance and cost variance are argued about separately in every steering meeting",
+        "Forecasts stay optimistic until the final quarter, when they collapse",
+        "A portfolio needs one comparable measure across projects of different size and market",
+        "Recovery actions are aimed at the wrong variance — cost cuts on a project that is late"
+      ],
+      "steps": [
+        "Define the performance measurement baseline: scope, budget and schedule in one structure",
+        "Break the baseline into control accounts with named owners",
+        "Agree the progress-claim rules before tracking starts — percent-complete rules are how the measure gets gamed",
+        "Record planned value, earned value and actual cost at the same cut-off",
+        "Compute and trend the variances (CV, SV) and indices (CPI, SPI) — trends, not single weeks",
+        "Re-forecast the estimate at completion from current performance against the remaining work",
+        "Act by variance type — time actions on schedule variance, cost actions on cost variance — and change the baseline only openly"
+      ],
+      "diagnosticQuestions": [
+        "Which variance is driving this project — time or money — and does our action target it?",
+        "What progress-claim rule produced this earned value number?",
+        "When the index last moved, what management action did it trigger?",
+        "Does the forecast assume the trend continues — and what would break that assumption?"
+      ],
+      "commonMistakes": [
+        "Chasing percent-complete while the indices are never translated into corrective action",
+        "Reporting indices upward as ritual, so variance is observed forever and corrected never",
+        "Quietly rebaselining to erase variance instead of revising the plan openly"
+      ],
+      "outcomeIndicators": [
+        "Cost and schedule variances are named early, in numbers the whole steering group shares",
+        "Forecast accuracy improves period over period as the trend is acted on",
+        "Recovery actions map to the actual variance instead of to the loudest complaint",
+        "Portfolio comparisons rest on one measure rather than on each project's own reporting style"
+      ],
+      "relatedModels": [
+        "stage-gate-governance",
+        "balanced-scorecard",
+        "siop-planning",
+        "root-cause-analysis"
+      ]
+    },
+    {
+      "id": "balanced-scorecard",
+      "name": "Balanced Scorecard",
+      "author": "Robert S. Kaplan & David P. Norton (1992)",
+      "category": "strategy",
+      "corePrinciple": "What gets measured gets managed — and what is left off the card quietly stops mattering: strategy survives contact with reality only when it is translated into measures across finance, customers, internal processes and learning together.",
+      "whenToApply": [
+        "Strategy exists as a presentation but daily decisions are driven by the monthly financials alone",
+        "A unit optimises its own numbers while the customer's experience degrades",
+        "Long-term capability building loses every budget fight to short-term pressure",
+        "The leadership team cannot say whether the strategy is working until the annual accounts land",
+        "Dashboards grow without limit and nobody can name the strategy each measure serves"
+      ],
+      "steps": [
+        "State the strategy as a cause-and-effect hypothesis: if we build X, customers get Y, finances follow Z",
+        "Define objectives per perspective — finance, customer, internal process, learning and growth",
+        "Attach a measure, a target and an initiative to every objective; a measure without an owner is commentary",
+        "Limit the card: a handful of objectives per perspective, and a named sacrifice for each addition",
+        "Cascade only what must align; local cards may differ where the work differs",
+        "Review the card on a fixed cadence and treat red items as decisions, not as reports",
+        "Re-read the hypothesis yearly: if the measures move and the strategy does not, the chain is wrong"
+      ],
+      "diagnosticQuestions": [
+        "Which objectives on this card have no owner and no initiative behind them?",
+        "What did we stop measuring to make room for the newest measure?",
+        "If this measure turns green, does the strategy actually move — and how would we know?",
+        "Which perspective is systematically over-represented in our reviews?"
+      ],
+      "commonMistakes": [
+        "Measuring everything reachable instead of the few things that carry the strategy",
+        "Confusing the card with the strategy — a green card can cover a failing business model",
+        "Cascading every measure to every level, so local teams inherit targets they cannot influence"
+      ],
+      "outcomeIndicators": [
+        "Leadership debates strategy with the same fluency as budget",
+        "Leading indicators in process and learning move before the financial lag does",
+        "Red measures trigger named decisions within the review cycle",
+        "Measures are retired deliberately, keeping the card small enough to steer"
+      ],
+      "relatedModels": [
+        "hoshin-kanri",
+        "management-by-objectives",
+        "stage-gate-governance",
+        "leadership-pipeline"
+      ]
+    },
+    {
+      "id": "hoshin-kanri",
+      "name": "Hoshin Kanri — Policy Deployment",
+      "author": "Toyota policy deployment (Masao Nemoto); Yoji Akao",
+      "category": "strategy",
+      "corePrinciple": "An organisation achieves a few vital breakthroughs only when every level negotiates the how — catchball — while the vital list stays short enough to steer; deployment without negotiation is target pushing with a borrowed name.",
+      "whenToApply": [
+        "The strategy has twelve priorities, which means it has none",
+        "Targets are cascaded as numbers and the levels commit to them on paper only",
+        "Daily work and the stated strategy point in different directions",
+        "Improvement energy is spread thin across departments with no common breakthrough goal",
+        "Annual planning repeats last year's targets with new percentages"
+      ],
+      "steps": [
+        "Choose at most three breakthrough objectives with measures and owners — the small number is the method",
+        "Build the annual plans bottom-up through catchball: two-way negotiation of means and measures, level by level",
+        "Align local objectives to the breakthrough goals; anything unlinked is out of scope by definition",
+        "Define the vital measures per level and review them on a fixed monthly cadence",
+        "Run the review as a dialogue about means, not as a scoreboard reading",
+        "Track countermeasures where the measure stalls — the stall is where leadership attention belongs",
+        "At the annual cycle keep what worked, revise the objectives, and resist adding more"
+      ],
+      "diagnosticQuestions": [
+        "Can every level state the breakthrough goals in their own words?",
+        "Which local objective cannot be tied to a breakthrough goal — and why does it exist?",
+        "When did a level last successfully negotiate its means upward?",
+        "How many vital objectives are we really running?"
+      ],
+      "commonMistakes": [
+        "Twelve vital objectives — the method dies when everything is prioritised",
+        "Cascading numbers without negotiating means, so levels comply without committing",
+        "Reviewing measures without ever touching the countermeasures behind them"
+      ],
+      "outcomeIndicators": [
+        "Local plans visibly serve the same few breakthrough goals",
+        "Catchball discussions change targets before they are final, not after",
+        "Monthly reviews spend their time on stalled measures and their countermeasures",
+        "The vital list stays short year over year even as ambitions grow"
+      ],
+      "relatedModels": [
+        "balanced-scorecard",
+        "kaizen-gemba",
+        "lean-manufacturing",
+        "pdca-cycle"
+      ]
+    },
+    {
+      "id": "management-by-objectives",
+      "name": "Management by Objectives",
+      "author": "Peter F. Drucker (1954)",
+      "category": "strategy",
+      "corePrinciple": "People commit to outcomes they helped define: managing through agreed objectives with explicit measures converts external control into self-control — but the objectives must come from the work, not from a template.",
+      "whenToApply": [
+        "People are busy all quarter and still surprised by what they are judged on",
+        "Performance conversations hinge on the manager's memory instead of written objectives",
+        "Goals cascade as activities (\"complete the migration\") instead of outcomes",
+        "Motivation drops where results are invisible to the people producing them",
+        "The organisation confuses working hard with making progress"
+      ],
+      "steps": [
+        "Derive objectives from the unit's mission and the period's real constraints",
+        "Define each objective with the person who will deliver it — participation is the mechanism, not a courtesy",
+        "Attach an observable measure and a horizon to every objective",
+        "Make the obstacles explicit: what the organisation must provide for the objective to be reachable",
+        "Review progress at agreed intervals against the objective, not against busyness",
+        "Revise objectives openly when reality changes — a stale target teaches cynicism",
+        "Close the period with a learning pass: what the objectives revealed about the work"
+      ],
+      "diagnosticQuestions": [
+        "Did the people carrying these objectives help define them?",
+        "Which objective has no observable measure — and what would 'done' look like?",
+        "What did we promise to provide so these objectives are reachable?",
+        "When reality last changed, did the objectives change with it?"
+      ],
+      "commonMistakes": [
+        "Setting objectives by template from the top and calling the result commitment",
+        "Measuring effort and hours as if they were outcomes",
+        "Freezing objectives for the year while the world moves, then judging by them anyway"
+      ],
+      "outcomeIndicators": [
+        "People can state their own objectives and measures unprompted",
+        "Reviews focus on outcomes and obstacles instead of on activity reports",
+        "Objectives are revised explicitly when conditions shift",
+        "Surprise at performance time disappears because nothing was hidden all along"
+      ],
+      "relatedModels": [
+        "balanced-scorecard",
+        "path-goal-theory",
+        "transformational-leadership",
+        "transactional-leadership"
+      ]
+    },
+    {
+      "id": "tuckman-stages",
+      "name": "Tuckman Team Stages",
+      "author": "Bruce W. Tuckman (1965; adjourning 1977)",
+      "category": "team-dynamics",
+      "corePrinciple": "Teams do not skip their development: forming, storming, norming and performing are stages to be led, not dysfunctions to be punished — the leader's job changes with the stage.",
+      "whenToApply": [
+        "A newly assembled team is judged for performing like an old one",
+        "Conflict in a young team is read as a hiring mistake instead of as storming",
+        "A team has worked together for years and still avoids real disagreement",
+        "A reorganisation merged two teams and management expected instant performance",
+        "The same people behave very differently across projects and nobody can say why"
+      ],
+      "steps": [
+        "Name the stage the team is actually in — from behaviour, never from the calendar",
+        "Forming: give direction, structure and introductions; ambiguity is the enemy here",
+        "Storming: surface the conflict deliberately and agree how the team decides",
+        "Norming: turn the working agreements into visible standards the team owns",
+        "Performing: delegate to the team's real capacity and get out of the way",
+        "Adjourning: close the work and harvest the learning before the team dissolves",
+        "Re-assess after every membership or mission change — a change restarts the stages partially"
+      ],
+      "diagnosticQuestions": [
+        "What behaviour suggests the team's current stage — and would the team say the same?",
+        "Is the conflict we see destructive, or storming that was never allowed to happen?",
+        "Which working agreements are actually written down and owned by the team?",
+        "What changed recently — members, mission or mandate — that would move the stage?"
+      ],
+      "commonMistakes": [
+        "Treating storming as failure and suppressing it, so the team never reaches norming",
+        "Applying performing-stage delegation to a forming-stage team and calling the result autonomy",
+        "Freezing the diagnosis — a stage is a current reading, never a permanent label"
+      ],
+      "outcomeIndicators": [
+        "Conflict becomes work-focused and productive instead of personal or silent",
+        "The team's own agreements are cited in its meetings",
+        "The leader's time shifts from directing to shielding and enabling",
+        "After a membership change the team names its own restart instead of drifting"
+      ],
+      "relatedModels": [
+        "five-dysfunctions",
+        "lmx",
+        "psychological-safety",
+        "stakeholder-rasci"
+      ]
+    },
+    {
+      "id": "blake-mouton-grid",
+      "name": "Blake-Mouton Managerial Grid",
+      "author": "Robert R. Blake & Jane S. Mouton (1964)",
+      "category": "individual-development",
+      "corePrinciple": "Leadership style can be read on two axes — concern for people and concern for results — and the 'team management' ideal is a mirror for the leader's own habits, not a scoring instrument for ranking leaders.",
+      "whenToApply": [
+        "A leader is described as either 'people-first' or 'results-first' with no vocabulary in between",
+        "Results are being delivered at the cost of visible burnout in the team",
+        "A harmony-keeping leader avoids the decisions that would create friction",
+        "A new manager is imitating a predecessor's style instead of reading the situation",
+        "The leadership team gives completely different accounts of what good management means here"
+      ],
+      "steps": [
+        "Place your own current style on the two axes honestly — from recent behaviour, not aspiration",
+        "Gather the team's reading of the same behaviour; the gap between the two readings is the real material",
+        "Name the situations where the style helps and where it costs the team",
+        "Choose one axis behaviour to change this quarter — visible, observable acts",
+        "Practice the new behaviour in low-stakes settings first",
+        "Re-read the placement after a period of practice, with the team's view again",
+        "Keep the frame as a conversation language; never convert it into a rating"
+      ],
+      "diagnosticQuestions": [
+        "When results and people collided recently, which did we actually choose — and why?",
+        "Would the team place our style where we place it ourselves?",
+        "Which behaviour of ours would have to change to move the reading one step?",
+        "Are we using the grid as a mirror or as a verdict?"
+      ],
+      "commonMistakes": [
+        "Scoring other people on the grid and letting the scores drive decisions about them",
+        "Treating 'team management' as a universal answer regardless of context and urgency",
+        "Reading the placement as a personality fact instead of as a pattern of behaviour"
+      ],
+      "outcomeIndicators": [
+        "Leader and team describe the leadership style in similar terms",
+        "Friction-producing decisions are taken earlier because the style allows them",
+        "Burnout signals are discussed before they become absence or resignations",
+        "The grid vocabulary shows up in development conversations as language, not as labels"
+      ],
+      "relatedModels": [
+        "goleman-six-styles",
+        "path-goal-theory",
+        "situational-leadership-ii",
+        "servant-leadership"
+      ]
+    },
+    {
+      "id": "competing-values-framework",
+      "name": "Competing Values Framework",
+      "author": "Robert E. Quinn & John Rohrbaugh (1983)",
+      "category": "culture",
+      "corePrinciple": "Effectiveness is not one thing: organisations pull between flexibility and control, and between internal and external focus — and leadership is judged by the ability to move between the competing values, not to pick one.",
+      "whenToApply": [
+        "Two strong departments disagree about what 'good' means and both are right",
+        "The culture rewards one mode — innovate, or stabilise — and cannot see its own gaps",
+        "A crisis demanded command while the culture only knows collaboration",
+        "An integration collides over decision speed and control",
+        "Leadership development is being planned around one ideal profile for everyone"
+      ],
+      "steps": [
+        "Map the organisation's current emphasis across the four quadrants from observable evidence",
+        "Name which quadrants the strategy actually needs in this period",
+        "Identify the gap between required and current emphasis — that gap is the leadership work",
+        "Choose deliberate practices per quadrant: collaborate, create, compete or control",
+        "Pair the paradoxes explicitly (flexibility versus control) so trade-offs are decided, not stumbled into",
+        "Assess leaders on range — can they operate the quadrant the situation needs?",
+        "Re-read the emphasis at least yearly; the required mix changes with the market and the lifecycle"
+      ],
+      "diagnosticQuestions": [
+        "Which quadrant does our praise and promotion actually reward?",
+        "What did the last crisis demand of us — and could we deliver it?",
+        "Where are we over-invested: flexibility or control, internal or external?",
+        "Which leadership behaviour is missing precisely where the strategy needs it?"
+      ],
+      "commonMistakes": [
+        "Declaring one quadrant the culture and treating the others as betrayal",
+        "Diagnosing individuals instead of the organisation's emphasis",
+        "Mapping once and treating the picture as static"
+      ],
+      "outcomeIndicators": [
+        "Leaders name the competing values in trade-off discussions",
+        "The organisation can shift mode under pressure without an identity crisis",
+        "Development plans cover range across quadrants instead of one ideal style",
+        "The gap between required and current emphasis narrows measurably year over year"
+      ],
+      "relatedModels": [
+        "just-culture-model",
+        "psychological-safety",
+        "transformational-leadership",
+        "adaptive-leadership"
+      ]
+    }
+  ]
+}
