@@ -1,0 +1,96 @@
+services:
+  data-init:
+    image: alpine:3.22
+    user: "0:0"
+    command: ["sh", "-c", "mkdir -p /var/lib/leadership && chown -R 100:101 /var/lib/leadership"]
+    volumes:
+      - leadership-data:/var/lib/leadership
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 8001
+      HOST: 0.0.0.0
+      LEADERSHIP_DATA_DIR: /var/lib/leadership
+      LEADERSHIP_PERSISTENCE: ${LEADERSHIP_PERSISTENCE:-postgres}
+      LEADERSHIP_TENANT_ID: ${LEADERSHIP_TENANT_ID:?set LEADERSHIP_TENANT_ID}
+      LEADERSHIP_API_TOKENS: ${LEADERSHIP_API_TOKENS:?set LEADERSHIP_API_TOKENS}
+      LEADERSHIP_AUTOMATION_PAUSED: ${LEADERSHIP_AUTOMATION_PAUSED:-false}
+      LEADERSHIP_AUTOMATION_INTERVAL_MS: ${LEADERSHIP_AUTOMATION_INTERVAL_MS:-300000}
+      DATABASE_URL: postgres://leadership:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}@postgres:5432/leadership
+    expose:
+      - "8001"
+    volumes:
+      - leadership-data:/var/lib/leadership
+    depends_on:
+      postgres:
+        condition: service_healthy
+      data-init:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://127.0.0.1:8001/api/health',r=>process.exit(r.statusCode===200?0:1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  edge:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    ports:
+      - "${HTTP_PORT:-80}:80"
+      - "${HTTPS_PORT:-443}:443"
+    volumes:
+      - ./deploy/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ${TLS_CERT_DIR:?set TLS_CERT_DIR}:/etc/nginx/tls:ro
+    depends_on:
+      app:
+        condition: service_healthy
+
+  ops-scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    command: ["node", "scripts/production-ops-scheduler.mjs"]
+    environment:
+      NODE_ENV: production
+      PORT: 8001
+      LEADERSHIP_DATA_DIR: /var/lib/leadership
+      LEADERSHIP_BACKUP_DIR: /var/lib/leadership-backups
+      LEADERSHIP_BACKUP_SIGNING_SECRET: ${LEADERSHIP_BACKUP_SIGNING_SECRET:?set LEADERSHIP_BACKUP_SIGNING_SECRET}
+      LEADERSHIP_BACKUP_RETENTION: ${LEADERSHIP_BACKUP_RETENTION:-30}
+      LEADERSHIP_OPS_INTERVAL_MS: ${LEADERSHIP_OPS_INTERVAL_MS:-86400000}
+      SELF_HEAL_PATCH_DIR: /var/lib/leadership-patches
+    volumes:
+      - leadership-data:/var/lib/leadership
+      - leadership-backups:/var/lib/leadership-backups
+      - leadership-patches:/var/lib/leadership-patches
+    depends_on:
+      app:
+        condition: service_healthy
+
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: leadership
+      POSTGRES_USER: leadership
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./db/migrations:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U leadership -d leadership"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  leadership-data:
+  postgres-data:
+  leadership-backups:
+  leadership-patches:
